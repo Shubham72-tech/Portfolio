@@ -11,3 +11,8 @@
 :global * {
   box-sizing: border-box;
 }
+
+:global body {
+	background-color: var(--color-background);
+	color: var(--color-body-copy);
+}

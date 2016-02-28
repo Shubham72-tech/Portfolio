@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="68px" viewBox="0 0 48 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Lantern</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1-Copy" sketch:type="MSArtboardGroup" transform="translate(-941.000000, -167.000000)" stroke-linecap="round" stroke="#000000">
+            <g id="Group-6" sketch:type="MSLayerGroup" transform="translate(440.000000, 169.000000)">
+                <g id="Group-7" transform="translate(436.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <g id="Lantern" transform="translate(67.000000, 0.000000)">
+                        <path d="M22.07663,0.283185759 C19.579602,0.283185759 17.5551143,2.29928682 17.5551143,4.78597071 C17.5551143,7.27265461 19.579602,9.28815848 22.07663,9.28815848 C24.573658,9.28815848 26.5981456,7.27265461 26.5981456,4.78597071 C26.5981456,2.29928682 24.573658,0.283185759 22.07663,0.283185759 L22.07663,0.283185759 Z" id="Stroke-25" stroke-width="3.36000013"></path>
+                        <path d="M22.07663,9.96035142 L37.7957931,23.4699007 L6.35746689,23.4699007 L22.07663,9.96035142 L22.07663,9.96035142 Z" id="Stroke-27" stroke-width="4.20000017" stroke-linejoin="round"></path>
+                        <path d="M10.9028494,23.4700798 L10.9028494,49.3282481" id="Stroke-29" stroke-width="4.20000017" stroke-linejoin="round"></path>
+                        <path d="M32.5120962,23.4700798 L32.5120962,49.3282481" id="Stroke-31" stroke-width="4.20000017" stroke-linejoin="round"></path>
+                        <path d="M37.7954932,49.9256733 C37.7954932,58.5711398 30.7577601,63.6752914 22.0763301,63.6752914 C13.3954998,63.6752914 6.35776672,58.5711398 6.35776672,49.9256733 L37.7954932,49.9256733 L37.7954932,49.9256733 Z" id="Stroke-33" stroke-width="3.36000013"></path>
+                        <path d="M18.7524165,39.3554154 C18.7949931,41.9818409 20.3031644,43.1559093 22.1387558,43.12605 C23.9743473,43.0961906 25.4429404,41.8743474 25.4003638,39.2479219 C25.3577871,36.6214964 22.0044297,29.0432018 22.0044297,29.0432018 C22.0044297,29.0432018 18.7098399,36.72899 18.7524165,39.3554154 L18.7524165,39.3554154 Z" id="Stroke-35" stroke-width="3.36000013" stroke-linejoin="round"></path>
+                        <path d="M22.1735367,43.1261097 L22.1735367,49.9256733" id="Stroke-37" stroke-width="3.36000013" stroke-linejoin="round"></path>
+                        <path d="M37.7954932,30.9326397 L42.9838425,27.9777617" id="Stroke-39" stroke-width="3.36000013" stroke-linejoin="round"></path>
+                        <path d="M37.7954932,41.7132862 L42.9838425,44.6681642" id="Stroke-41" stroke-width="3.36000013" stroke-linejoin="round"></path>
+                        <path d="M37.7954932,36.0849842 L43.5403367,36.0849842" id="Stroke-43" stroke-width="3.36000013" stroke-linejoin="round"></path>
+                        <path d="M5.7610346,30.9326397 L0.572685338,27.9777617" id="Stroke-45" stroke-width="3.36000013" stroke-linejoin="round"></path>
+                        <path d="M5.7610346,41.7132862 L0.572685338,44.6681642" id="Stroke-47" stroke-width="3.36000013" stroke-linejoin="round"></path>
+                        <path d="M5.7610346,36.0849842 L0.0161911038,36.0849842" id="Stroke-49" stroke-width="3.36000013" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

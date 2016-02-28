@@ -31,6 +31,12 @@ config.module.loaders = [
 	}, {
 			test: /\.css$/,
 			loader: `style-loader!css-loader?${cssLoaderConfig}`,
+	}, {
+			test: /\.(jpe?g|png|gif|svg)$/i,
+			loaders: [
+				'file?name=img-[hash:6].[ext]',
+				'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+			]
 	}
 ];
 

@@ -27,6 +27,12 @@ config.module.loaders = [
 	}, {
 			test: /\.css$/,
 			loader: ExtractTextPlugin.extract('css-loader?' + cssLoaderConfig),
+	}, {
+			test: /\.(jpe?g|png|gif|svg)$/i,
+			loaders: [
+				'file?name=img-[hash:6].[ext]',
+				'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+			]
 	}
 ];
 

@@ -31,6 +31,10 @@
 .overunder { text-decoration: overline; text-decoration: underline; }
 .strike { text-decoration: line-through; }
 
+/* Line-height */
+.lhTight { line-height: 1.25; }
+.lhAverage { line-height: 1.4; }
+.lhLoose { line-height: 1.66667; }
 
 /*Font size modifiers*/
 .alpha {

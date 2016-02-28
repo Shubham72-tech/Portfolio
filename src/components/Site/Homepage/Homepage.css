@@ -1,8 +1,13 @@
 /*This would likely go in a more global place, but just an example of lost innit m8s*/
-.row {
+.row,
+.thinRow {
   lost-utility: clearfix;
 }
 
+.thinRow {
+  max-width: 600px;
+  margin: auto;
+}
 .thirds {
   lost-column: 1/3;
   border: 3px solid black;

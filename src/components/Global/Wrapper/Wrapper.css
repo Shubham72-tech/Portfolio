@@ -1,4 +1,5 @@
 .root {
-  max-width: 63em;
+  max-width: 54em;
   margin: 0 auto;
+  position: relative;
 }

@@ -1,0 +1,55 @@
+.root {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20vh;
+  background-color: rgba(232, 119, 166, .97);
+  z-index: 5;
+}
+
+.row {
+  lost-utility: clearfix;
+}
+
+.col {
+  lost-column: 1/2;
+  text-align: center;
+  margin-bottom: 4vh;
+  vertical-align: bottom;
+}
+
+.link {
+  display: block;
+  margin: auto;
+}
+
+.imageContainer {
+  height: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  vertical-align: bottom;
+}
+
+.imageContainer img {
+  vertical-align: bottom;
+}
+
+.link {
+  color: white;
+  font-family: "fatfrank", sans-serif;
+  margin-bottom: 2.6rem;
+  text-decoration: none;
+  position: relative;
+}
+
+.link:last-child:before {
+  content: '';
+  width: 2rem;
+  height: 3px;
+  background-color: black;
+  margin: auto;
+  position: absolute;
+  top: -1.2rem;
+  left: 50%;
+  margin-left: -1rem;
+}

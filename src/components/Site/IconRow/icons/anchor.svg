@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="46px" height="59px" viewBox="0 0 46 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Anchor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-755.000000, -181.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(461.000000, 174.000000)">
+                <g id="Page-1" transform="translate(6.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <g id="Anchor" transform="translate(289.211229, 9.027778)">
+                        <path d="M21.7033951,0.100268519 C19.2063671,0.100268519 17.1818794,2.13212037 17.1818794,4.63823148 C17.1818794,7.14434259 19.2063671,9.17559259 21.7033951,9.17559259 C24.2004231,9.17559259 26.2249107,7.14434259 26.2249107,4.63823148 C26.2249107,2.13212037 24.2004231,0.100268519 21.7033951,0.100268519 L21.7033951,0.100268519 Z" id="Stroke-1" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round"></path>
+                        <path d="M10.8476198,20.1074491 C10.8476198,21.8161065 9.46717825,23.2015694 7.76471367,23.2015694 C6.06224909,23.2015694 4.68240725,21.8161065 4.68240725,20.1074491 C4.68240725,18.3987917 6.06224909,17.0133287 7.76471367,17.0133287 C9.46717825,17.0133287 10.8476198,18.3987917 10.8476198,20.1074491" id="Fill-3" fill="#9AEFDD"></path>
+                        <path d="M10.3009002,20.1074491 L21.7036349,20.1074491" id="Stroke-5" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round"></path>
+                        <path d="M32.5591703,20.1074491 C32.5591703,21.8161065 33.9396119,23.2015694 35.6420764,23.2015694 C37.344541,23.2015694 38.7243829,21.8161065 38.7243829,20.1074491 C38.7243829,18.3987917 37.344541,17.0133287 35.6420764,17.0133287 C33.9396119,17.0133287 32.5591703,18.3987917 32.5591703,20.1074491" id="Fill-7" fill="#9AEFDD"></path>
+                        <path d="M33.10589,20.1074491 L21.7031552,20.1074491" id="Stroke-9" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round"></path>
+                        <path d="M38.0724811,35.3268981 C37.3678682,37.8775463 38.1684283,39.3538889 39.5518682,39.7384722 C40.9359077,40.1236574 42.378715,39.2714352 43.0833278,36.720787 C43.7879407,34.169537 42.1028666,30.5006481 42.1028666,30.5006481 C42.1028666,30.5006481 38.7770939,32.77625 38.0724811,35.3268981 L38.0724811,35.3268981 Z" id="Stroke-11" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M5.73530873,35.3268981 C6.43992158,37.8775463 5.63936145,39.3538889 4.25592158,39.7384722 C2.87188204,40.1236574 1.42907479,39.2714352 0.724461944,36.720787 C0.0198490939,34.169537 1.70492323,30.5006481 1.70492323,30.5006481 C1.70492323,30.5006481 5.03069588,32.77625 5.73530873,35.3268981 L5.73530873,35.3268981 Z" id="Stroke-13" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M21.8492949,55.5024769 C21.8492949,55.5024769 36.2581779,48.7268287 39.552168,39.7387731" id="Stroke-15" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round"></path>
+                        <path d="M21.9683895,55.5024769 C21.9683895,55.5024769 7.55890675,48.7268287 4.26551631,39.7387731" id="Stroke-17" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round"></path>
+                        <path d="M10.8476198,48.2783889 C10.8476198,48.2783889 17.7864072,52.933713 21.5019657,43.4996852" id="Stroke-19" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M32.5874748,48.2783889 C32.5874748,48.2783889 25.6486873,52.933713 21.9331288,43.4996852" id="Stroke-21" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M21.8843756,43.4994444 L21.8843756,9.17583333" id="Stroke-23" stroke="#9AEFDD" stroke-width="2.4000001" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

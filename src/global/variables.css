@@ -1,11 +1,13 @@
 :root {
-  --color-primary: red;
-  --color-secondary: #002fa7;
-  --color-background: #545454;
-  --color-body-copy: #fafafa;
+  --color-primary: #E877A6;
+  --color-secondary: #9AEFDD;
+  --color-background: #2C2C2C;
+  --color-body-copy: white;
 
-  --font-size-base: 16px;
-  --font-size-alpha: 4.768rem;
+  --color-link: #EBCA7D;
+
+  --font-size-base: 18px;
+  --font-size-alpha: 7.594rem;
   --font-size-beta: 3.815rem;
   --font-size-gamma: 3.052rem;
   --font-size-delta: 2.441rem;

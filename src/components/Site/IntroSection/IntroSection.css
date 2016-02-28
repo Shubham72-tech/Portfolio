@@ -1,0 +1,37 @@
+.root {
+  lost-utility: clearfix;
+}
+
+.imageBlock {
+  lost-column: 1/4;
+}
+
+.imageBlock img {
+  border-radius: 100%;
+  border: 2px solid var(--color-primary);
+  margin-top: 1rem;
+}
+
+.bioBlock {
+  -webkit-font-smoothing: antialiased;
+  lost-column: 3/4;
+}
+
+.bioBlock p {
+  position: relative;
+}
+
+.bioBlock p:before {
+  content: '';
+  width: 2rem;
+  height: 3px;
+  position: absolute;
+  top: -.5rem;
+  left: 0;
+  background-color: var(--color-secondary);
+}
+
+.link {
+  color: var(--color-link);
+  text-decoration: none;
+}

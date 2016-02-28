@@ -25,7 +25,8 @@ module.exports = {
 	entry:   ["../src/server"],
 	output:  {
 		path:          path.join(__dirname, "../dist"),
-		filename:      "server.js"
+		filename:      "server.js",
+		publicPath: '/dist/',
 	},
 	plugins: [
 		new webpack.DefinePlugin({__CLIENT__: false, __SERVER__: true, __PRODUCTION__: true, __DEV__: false}),
@@ -48,7 +49,13 @@ module.exports = {
 			{
 				test: /\.css$/,
 	 			loader: ExtractTextPlugin.extract('style-loader', `css-loader?${cssLoaderConfig}`)
-			}
+			}, {
+		      test: /\.(jpe?g|png|gif|svg)$/i,
+		      loaders: [
+			      'file?name=img-[hash:6].[ext]',
+			      'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+		      ]
+		  }
 		],
 		noParse: /\.min\.js/
 	},

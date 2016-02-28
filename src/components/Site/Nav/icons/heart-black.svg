@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="42px" height="43px" viewBox="0 0 42 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Heart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1-Copy" sketch:type="MSArtboardGroup" transform="translate(-944.000000, -441.000000)" stroke="#000000" stroke-width="3.36" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Group-6" sketch:type="MSLayerGroup" transform="translate(440.000000, 169.000000)">
+                <g id="Group-7-Copy-2" transform="translate(433.000000, 274.000000)" sketch:type="MSShapeGroup">
+                    <g id="Heart" transform="translate(73.000000, 0.000000)">
+                        <path d="M19.0033043,38.4003198 C19.0033043,38.3346688 29.1746377,28.0213438 32.876058,22.7214174 C41.0466087,11.0205197 38.1883478,3.21250312 32.4569565,1.07383874 C27.2024928,-0.887345427 21.9072754,0.53972901 19.1729275,5.89640452" id="Stroke-55"></path>
+                        <path d="M19.0606899,5.82541243 C16.326342,0.468736925 11.0157043,-0.887122881 5.76124058,1.07350492 C0.0298492754,3.2121693 -2.91873043,11.0207423 5.25182029,22.72164 C8.95324058,28.0215663 18.9868928,38.3410114 18.9868928,38.4066624" id="Stroke-57"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

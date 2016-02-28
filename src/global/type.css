@@ -3,7 +3,16 @@
 * http://www.modularscale.com/
 */
 
-:global body {
-  font-size: --font-size-base;
+:global body,
+:global html {
+  font-family: "factoria",sans-serif;
+  font-size: var(--font-size-base);
   line-height: 1.25rem;
+}
+
+:global h1,
+:global h2,
+:global h3 {
+  font-family: "fatfrank",sans-serif;
+  font-weight: 700;
 }
