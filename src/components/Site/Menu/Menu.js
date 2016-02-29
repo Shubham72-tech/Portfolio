@@ -15,41 +15,48 @@ import bolt from '../Nav/icons/bolt-black.svg'
 export default class Menu extends Component {
   render() {
     return (
-      <Motion defaultStyle={{y: 30}} style={{y: spring(0, {stiffness: 100, damping: 10})}}>
+      <Motion
+        defaultStyle={{rootY: 30, topY: 10, bottomY: 10, pop: .7}}
+        style={{
+          rootY: spring(0, {stiffness: 100, damping: 10}),
+          topY: spring(0, {stiffness: 80, damping: 8}),
+          bottomY: spring(0, {stiffness: 80, damping: 7}),
+          pop: spring(1, {stiffness: 80, damping: 7}),
+        }}>
         { value =>
-          <div className={s.root} style={{transform: `translateY(${value.y}vh)`}}>
+          <div className={s.root} style={{transform: `translateY(${value.rootY}vh)`}}>
             <Wrapper>
               <div className={s.row}>
                 <div className={s.col}>
                   <div className={s.imageContainer}>
-                    <img src={bolt} />
+                    <img src={bolt} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')}>What I do</Link>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')}>What I make</Link>
+                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>What I do</Link>
+                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>What I make</Link>
                 </div>
                 <div className={s.col}>
                   <div className={s.imageContainer}>
-                    <img src={lantern} />
+                    <img src={lantern} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')}>Speaking</Link>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')}>Workshops</Link>
+                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Speaking</Link>
+                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Workshops</Link>
                 </div>
               </div>
 
               <div className={s.row}>
                 <div className={s.col}>
                   <div className={s.imageContainer}>
-                    <img src={anchor} />
+                    <img src={anchor} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')}>Writing</Link>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')}>Screencasts</Link>
+                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>Writing</Link>
+                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>Screencasts</Link>
                 </div>
                 <div className={s.col}>
                   <div className={s.imageContainer}>
-                    <img src={heart} />
+                    <img src={heart} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')}>Exploration</Link>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')}>Mentorship</Link>
+                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Exploration</Link>
+                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Mentorship</Link>
                 </div>
               </div>
 

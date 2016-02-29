@@ -37,7 +37,7 @@
 .link {
   color: white;
   font-family: "fatfrank", sans-serif;
-  margin-bottom: 2.6rem;
+  margin-bottom: 2.7rem;
   text-decoration: none;
   position: relative;
 }
@@ -52,4 +52,5 @@
   top: -1.2rem;
   left: 50%;
   margin-left: -1rem;
+  border-radius: 20px;
 }
