@@ -44,7 +44,7 @@ try {
             <html lang="en-us">
               <head>
                 <meta charset="utf-8">
-                <title>Strtkt – we so startup m8s</title>
+                <title>Scott is… your m8</title>
                 <link rel="shortcut icon" href="/favicon.ico">
                 ${styleTag}
               </head>
