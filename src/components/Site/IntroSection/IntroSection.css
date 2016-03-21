@@ -1,5 +1,6 @@
 .root {
   lost-utility: clearfix;
+  width: 100%;
 }
 
 .imageBlock {
@@ -19,6 +20,7 @@
 
 .bioBlock p {
   position: relative;
+  orphans: 3;
 }
 
 .bioBlock p:before {

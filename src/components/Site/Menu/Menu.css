@@ -37,9 +37,9 @@
 .link {
   color: white;
   font-family: "fatfrank", sans-serif;
-  margin-bottom: 2.7rem;
   text-decoration: none;
   position: relative;
+  margin-bottom: 2.5rem;
 }
 
 .link:last-child:before {

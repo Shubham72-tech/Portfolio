@@ -14,7 +14,11 @@ export default class IntroSection extends Component {
           <img src={face} />
         </div>
         <div className={[s.bioBlock, m.fw200, m.theta, m.lhLoose].join(' ')}>
-          <p>My name is Scott and <Link to="/" className={s.link}>I make things</Link> for money and for fun. I’m a product designer, developer, speaker and internet tinkerer. I 💖 turning exciting ideas into beautiful products. </p>
+          <p>
+            My name is Scott and <Link to="/" className={s.link}>I make things</Link> for money and for fun. 
+            I’m a product designer, developer, speaker and internet tinkerer.
+            I 💖 turning exciting ideas into beautiful&nbsp;products.
+          </p>
         </div>
       </div>
     );

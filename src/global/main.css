@@ -13,6 +13,6 @@
 }
 
 :global body {
-	background-color: var(--color-background);
+	background-color: #222;
 	color: var(--color-body-copy);
 }

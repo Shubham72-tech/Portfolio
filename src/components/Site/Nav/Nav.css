@@ -1,13 +1,16 @@
 .super {
   position: relative;
 }
+
 .root {
   color: #444;
   lost-utility: clearfix;
   padding: 3rem 0;
   text-align: right;
-  position: relative;
+  position: fixed;
   z-index: 6;
+  width: 100%;
+  background: #222;
 }
 
 .menuLink {

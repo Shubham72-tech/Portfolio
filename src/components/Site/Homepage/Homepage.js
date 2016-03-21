@@ -12,10 +12,10 @@ export default class Homepage extends Component {
   render() {
     return(
       <div id="homepage">
-        <Wrapper>
+        <Wrapper className={s.root}>
           <div className={s.thinRow}>
             <IconRow />
-            <h1 className={m.alpha}>Hi there</h1>
+            <h1 className={[m.alpha, s.heading].join(' ')}>Hi there</h1>
             <IntroSection />
           </div>
         </Wrapper>

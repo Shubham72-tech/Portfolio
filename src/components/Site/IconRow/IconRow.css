@@ -1,8 +1,24 @@
 .root {
   vertical-align: middle;
+  lost-utility: clearfix;
+  max-width: 500px;
+  margin: auto;
 }
 
-.root img {
+.icon img {
   vertical-align: middle;
-  margin-right: 4rem;
+}
+
+.icon {
+  lost-column: 1/5;
+  height: 3rem;
+}
+
+.icon img {
+  height: 100%;
+}
+
+.icon .lantern {
+  height: 110%;
+  margin-top: -5%;
 }

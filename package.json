@@ -54,6 +54,7 @@
     "postcss-loader": "^0.8.0",
     "react": "0.14.6",
     "react-dom": "0.14.6",
+    "react-inlinesvg": "^0.4.2",
     "react-motion": "^0.4.2",
     "react-router": "1.0.3",
     "react-transmit": "3.1.6",

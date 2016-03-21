@@ -31,15 +31,15 @@ export default class Menu extends Component {
                   <div className={s.imageContainer}>
                     <img src={bolt} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>What I do</Link>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>What I make</Link>
+                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>What I do</Link>
+                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>What I make</Link>
                 </div>
                 <div className={s.col}>
                   <div className={s.imageContainer}>
                     <img src={lantern} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Speaking</Link>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Workshops</Link>
+                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Speaking</Link>
+                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Workshops</Link>
                 </div>
               </div>
 
@@ -48,15 +48,15 @@ export default class Menu extends Component {
                   <div className={s.imageContainer}>
                     <img src={anchor} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>Writing</Link>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>Screencasts</Link>
+                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>Writing</Link>
+                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}}>Screencasts</Link>
                 </div>
                 <div className={s.col}>
                   <div className={s.imageContainer}>
                     <img src={heart} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Exploration</Link>
-                  <Link to="/" className={[s.link, m.epsilon, m.mbepsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Mentorship</Link>
+                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Exploration</Link>
+                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}}>Mentorship</Link>
                 </div>
               </div>
 

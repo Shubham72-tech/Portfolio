@@ -14,11 +14,21 @@ export default class IconRow extends Component {
     const {children} = this.props;
     return (
       <div className={s.root}>
-        <img src={KeyholeIcon} />
-        <img src={LanternIcon} />
-        <img src={BoltIcon} />
-        <img src={AnchorIcon} />
-        <img src={HeartIcon} />
+        <div className={s.icon}>
+          <img src={KeyholeIcon} />
+        </div>
+        <div className={s.icon}>
+          <img src={LanternIcon} className={s.lantern} />
+        </div>
+        <div className={s.icon}>
+          <img src={BoltIcon} />
+        </div>
+        <div className={s.icon}>
+          <img src={AnchorIcon} />
+        </div>
+        <div className={s.icon}>
+          <img src={HeartIcon} />
+        </div>
       </div>
     );
   }

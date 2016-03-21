@@ -8,6 +8,7 @@ import {Router, Route, IndexRoute} from "react-router";
 // Marketing site
 import SiteContainer from "./SiteContainer";
 import Homepage from 'components/Site/Homepage/Homepage';
+import Process from 'components/Site/Process/Process';
 
 // Application
 import AppContainer from "./AppContainer";
@@ -18,6 +19,7 @@ module.exports = (
 		{/*Marketing site*/}
 		<Route path="/" component={SiteContainer}>
 			<IndexRoute component={Homepage} />
+			<Route path="process" component={Process} />
 		</Route>
 
 		{/*Application*/}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="328px" height="90px" viewBox="0 0 328 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1-Copy-2" transform="translate(-202.000000, -831.000000)">
+            <g id="UX" transform="translate(-16.000000, 759.000000)">
+                <g id="Sharpies-and-post-its" transform="translate(155.000000, 25.000000)">
+                    <g id="Shape-bg" transform="translate(63.000000, 48.000000)">
+                        <path d="M254,0 C257.681,0 257.681,4 261.361,4 C265.039,4 265.039,0 268.717,0 C272.397,0 272.397,4 276.077,4 C279.757,4 279.757,0 283.436,0 C287.116,0 287.116,4 290.796,4 C294.477,4 294.477,0 298.157,0 C301.839,0 301.839,4 305.521,4 C309.202,4 309.202,0 312.883,0 C316.567,0 316.567,4 320.25,4 C323.933,4 323.933,0 327.617,0" id="Page-1" stroke="#9AEFDD"></path>
+                        <path d="M8.25005,37.5769 L16,42.0513612 L16,51.0002835 L8.25005,55.4747446 L0.5001,51.0002835 L0.5001,42.0513612 L8.25005,37.5769 L8.25005,37.5769 Z" id="Stroke-2" stroke="#EBCA7D" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="Oval-4" stroke="#E977A6" cx="238" cy="81" r="7"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
