@@ -23,6 +23,32 @@ export default class Homepage extends Component {
         <div className={s.illo}>
           <CuteAsFuck />
         </div>
+
+        <div className={s.featuredWork}>
+          <div className={s.section}>
+            <div className={s.copy}>
+              <h3 className={s.subhead}>Featured Work</h3>
+              <h2 className={s.portfolioHeading}>Pact Coffee</h2>
+              <p className={[s.skills, s.blue].join(' ')}>
+                UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Icons <span className={s.slash}>/</span> Motion design <span className={s.slash}>/</span> Frontend
+              </p>
+              <p className={s.processDescription}>
+                I led UI at Pact for almost two years and oversaw two major UI and iOS app redesigns, as well as dozens of new features, iterations, successes and failures. It was a beautiful time.
+              </p>
+            </div>
+            <div className={s.images}>
+              <div className={s.smallImages}>
+                <img src="images/portfolio/pact-hex.png" />
+                <img src="images/portfolio/pact-circle.png" />
+                <img src="images/portfolio/pact-diamond.png" />
+              </div>
+              <div className={s.bigImage}>
+                <img src="images/portfolio/pact-main.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     )
   }
