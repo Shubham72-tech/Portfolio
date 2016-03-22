@@ -45,12 +45,20 @@
   border-bottom: 2px solid #EBCA7D;
 }
 
+.fe {
+  border-bottom: 2px solid #9AEFDD;;
+}
+
 .ui .icons {
   padding-top: 3rem;
 }
 
 .ixd .icons {
   padding-top: 4rem;
+}
+
+.fe .icons {
+  padding-top: 3rem;
 }
 
 .copy {

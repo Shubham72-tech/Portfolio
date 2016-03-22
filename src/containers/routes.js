@@ -19,7 +19,7 @@ module.exports = (
 		{/*Marketing site*/}
 		<Route path="/" component={SiteContainer}>
 			<IndexRoute component={Homepage} />
-			<Route path="process" component={Process} />
+			<Route path="doing" component={Process} />
 		</Route>
 
 		{/*Application*/}

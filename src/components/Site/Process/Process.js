@@ -12,6 +12,7 @@ import UxIcon from 'components/Site/Icons/UX/UX';
 import UiIcon from 'components/Site/Icons/UI/UI';
 import IxdIcon from 'components/Site/Icons/IxD/IxD';
 import FeIcon from 'components/Site/Icons/Frontend/Frontend';
+import ItIcon from 'components/Site/Icons/Iteration/Iteration';
 
 import headerShapes from './header-shapes.svg';
 
@@ -87,14 +88,31 @@ export default class Process extends Component {
               <div className={s.copy}>
                 <h2 className={[s.processHeading, s.blueHeading].join(' ')} style={ { backgroundImage: `url(${headerShapes})`} }>The shouting at browsers stuff</h2>
                 <p className={[s.skills, s.blue].join(' ')}>
-                  UI Design <span className={s.slash}>/</span> Icon Design <span className={s.slash}>/</span> Typography & Grids <span className={s.slash}>/</span> Styleguides
+                  Frontend <span className={s.slash}>/</span> React &amp; Redux Prototyping <span className={s.slash}>/</span> API Integration
                 </p>
                 <p className={s.processDescription}>
-                  My aproach to UI design revolves around crafting a ‘visual language’ for an interface. I never design solely in the context of static screens and do a lot of work to create robust, reusable elements. That means creating styleguides for every project. That means frontend devs wanna smooch me.
+                  I love bringing ideas to life in the browser. I’m super comfortable working with React and Redux to build out interfaces and websites—whether it’s a simple, performant marketing site, or a big, fancy interface talking to multiple APIs.
                 </p>
               </div>
               <div className={s.icons}>
                 <FeIcon />
+              </div>
+            </div>
+          </div>
+
+          <div className={s.it}>
+            <div className={s.section}>
+              <div className={s.copy}>
+                <h2 className={[s.processHeading, s.pinkHeading].join(' ')} style={ { backgroundImage: `url(${headerShapes})`} }>The making shit better stuff</h2>
+                <p className={[s.skills, s.pink].join(' ')}>
+                  User &amp; A/B Testing <span className={s.slash}>/</span> Rapid Iteration <span className={s.slash}>/</span> Feature Enhancement 
+                </p>
+                <p className={s.processDescription}>
+                  I’m always happy to stick around after launching a project into the wilderness of the internet. Iterating on an already lovely product is a wonderful feeling.
+                </p>
+              </div>
+              <div className={s.icons}>
+                <ItIcon />
               </div>
             </div>
           </div>

@@ -16,6 +16,7 @@
 .bioBlock {
   -webkit-font-smoothing: antialiased;
   lost-column: 3/4;
+  max-width: 500px;
 }
 
 .bioBlock p {
@@ -23,7 +24,7 @@
   orphans: 3;
 }
 
-.bioBlock p:before {
+.bioBlock p:first-child:before {
   content: '';
   width: 2rem;
   height: 3px;
@@ -33,7 +34,22 @@
   background-color: var(--color-secondary);
 }
 
+.bioBlock a,
+.bioBlock a:visited {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+.bioBlock a:hover {
+  color: white;
+  border-bottom: 2px solid var(--color-link);
+}
+
 .link {
   color: var(--color-link);
   text-decoration: none;
+}
+
+.links {
+  text-align: right;
 }

@@ -12,9 +12,12 @@ export default class IntroSection extends Component {
       <div className={s.root}>
         <div className={[s.bioBlock, m.fw200, m.theta, m.lhLoose].join(' ')}>
           <p>
-            My name is Scott and <Link to="/" className={s.link}>I make things</Link> for money and for fun.
+            My name is Scott and I make things for money and for fun.
             I’m a product designer, developer, speaker and internet tinkerer.
             I 💖 turning exciting ideas into beautiful&nbsp;products.
+          </p>
+          <p className={s.links}>
+            <Link to="/doing">What I Do</Link> / <Link to="/making">See My Work</Link>
           </p>
         </div>
       </div>
