@@ -5,6 +5,10 @@
   margin: auto;
 }
 
+.left {
+  margin-left: 0;
+}
+
 .icon img {
   vertical-align: middle;
 }

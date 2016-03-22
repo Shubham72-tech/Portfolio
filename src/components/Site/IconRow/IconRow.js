@@ -11,9 +11,14 @@ import HeartIcon from './icons/heart.svg';
 
 export default class IconRow extends Component {
   render() {
-    const {children} = this.props;
+    const {modifier} = this.props;
+    let classNames = [s.root];
+    if(modifier) {
+      classNames.push(s[modifier]);
+    }
+    classNames = classNames.join(' ');
     return (
-      <div className={s.root}>
+      <div className={classNames}>
         <div className={s.icon}>
           <img src={KeyholeIcon} />
         </div>
