@@ -15,6 +15,7 @@ export default class AppContainer extends Component {
   			<main>
           {this.props.children}
   			</main>
+				<Footer />
       </div>
 		);
 	}

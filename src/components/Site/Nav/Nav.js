@@ -27,7 +27,7 @@ export default class Nav extends Component {
     return (
       <div className={s.super}>
         { showMenu ?
-            <Menu />
+            <Menu onLinkClick={ () => this.showMenu() } />
           :
             null
         }

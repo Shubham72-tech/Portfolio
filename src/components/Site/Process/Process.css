@@ -46,7 +46,11 @@
 }
 
 .fe {
-  border-bottom: 2px solid #9AEFDD;;
+  border-bottom: 2px solid #9AEFDD;
+}
+
+.it {
+  border-bottom: 2px solid #E877A6;
 }
 
 .ui .icons {
@@ -58,7 +62,7 @@
 }
 
 .fe .icons {
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .copy {
