@@ -3,10 +3,36 @@
   clear: both;
 }
 
+.wrap {
+  max-width: 73rem;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
 .copyNotice {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
-  text-align: center;
+  text-align: left;
+  lost-column: 1/3;
+  padding-top: 2rem;
+}
+
+.nav {
+  lost-column: 2/3;
+  text-align: right;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+.nav a:hover {
+  color: white;
+  border-bottom: 2px solid var(--color-link);
 }
 
 .getInTouch {
