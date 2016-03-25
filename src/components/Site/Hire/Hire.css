@@ -1,0 +1,127 @@
+.root {
+  padding-bottom: 4rem;
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.greeting {
+  font-size: 2.4rem;
+}
+
+.form {
+  max-width: 43rem;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 2.1;
+}
+
+.form p {
+  margin-bottom: 2rem;
+  color: #eaeaea;
+}
+
+.inlineInput {
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+  border-bottom: 1px solid var(--color-link);
+  color: white;
+  display: inline-block;
+  width: auto;
+  background: rgba(0,0,0,.15);
+  padding: .8rem;
+}
+
+.inlineInput:focus {
+  outline: none;
+  border-bottom-color: var(--color-link);
+  background: rgba(0,0,0,.35);
+}
+
+.error {
+  border-left: 3px solid #E87777;
+  color: #E87777;
+  font-weight: 400;
+  font-size: .9rem;
+  padding: .2rem;
+  padding-left: 1rem;
+  margin-left: -1rem;
+}
+
+.singleInput {
+  margin-left: -.8rem;
+  border-bottom: 0;
+  border-left: 1px solid var(--color-link);
+}
+
+.select {
+  padding: .8rem;
+  margin: 0;
+  background: rgba(0,0,0,.15);
+  color: white;
+  border:none;
+  outline:none;
+  display: inline;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor:pointer;
+  border-radius: 0;
+  position: relative;
+  padding-right: 2em;
+  padding-left: .5em;
+  margin-left: .6ch;
+  margin-bottom: .4rem;
+  line-height: 1;
+}
+
+.label {
+  position: relative;
+}
+
+.label:after {
+  content:'↯';
+  font-size: 1.8rem;
+  right:.2em;
+  top:-1rem;
+  padding:0 0 2px;
+  position:absolute;
+  pointer-events:none;
+  color: var(--color-link);
+}
+
+.textarea {
+  background: rgba(0,0,0,.2);
+  border: none;
+  font-size: 1.2rem;
+  border-left: 2px solid var(--color-link);
+  width: 100%;
+  width: calc(100% + 2rem);
+  padding: 1rem 2rem;
+  padding-left: 2rem;
+  margin-left: -2rem;
+}
+
+.ctaWrap {
+  text-align: center;
+}
+
+.cta {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .24rem;
+  padding: 1.6rem 8rem;
+  text-align: center;
+  border: 1px solid var(--color-link);
+  border-radius: 999px;
+  background: none;
+  margin: auto;
+}
+
+.cta:hover {
+  background: var(--color-link);
+  color: #222;
+}

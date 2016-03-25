@@ -11,6 +11,7 @@ import Homepage from 'components/Site/Homepage/Homepage';
 import Process from 'components/Site/Process/Process';
 import Portfolio from 'components/Site/Portfolio/Portfolio';
 import Speaking from 'components/Site/Speaking/Speaking';
+import Hire from 'components/Site/Hire/Hire';
 
 // Application
 import AppContainer from "./AppContainer";
@@ -23,6 +24,7 @@ module.exports = (
 			<IndexRoute component={Homepage} />
 			<Route path="doing" component={Process} />
       <Route path="making-stuff" component={Portfolio} />
+      <Route path="making-stuff/for-you" component={Hire} />
       <Route path="speaking" component={Speaking} />
 		</Route>
 
