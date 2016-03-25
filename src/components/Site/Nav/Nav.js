@@ -24,6 +24,8 @@ export default class Nav extends Component {
   render() {
     const {showMenu} = this.state;
     const menuClass = showMenu ? s.closeButton : s.menuButton;
+    const rootClass = [s.root];
+    if(showMenu) { rootClass.push(s.fixed) }
     return (
       <div className={s.super}>
         { showMenu ?
@@ -31,7 +33,7 @@ export default class Nav extends Component {
           :
             null
         }
-        <nav className={s.root}>
+        <nav className={rootClass.join(' ')}>
           <Wrapper>
             <a className={[s.menuLink, menuClass].join(' ')} onClick={ () => this.showMenu() }>
             <StaggeredMotion

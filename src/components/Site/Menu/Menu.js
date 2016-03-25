@@ -40,7 +40,7 @@ export default class Menu extends Component {
                     <img src={lantern} style={{transform: `scale(${value.pop})`}} />
                   </div>
                   <Link to="/doing" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>What I do</Link>
-                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>My work</Link>
+                  <Link to="/making-stuff" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>My work</Link>
                 </div>
               </div>
 
@@ -49,7 +49,7 @@ export default class Menu extends Component {
                   <div className={s.imageContainer}>
                     <img src={anchor} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Speaking</Link>
+                  <Link to="/speaking" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Speaking</Link>
                   <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Workshops</Link>
                 </div>
                 <div className={s.col}>
