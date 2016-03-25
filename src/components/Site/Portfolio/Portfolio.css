@@ -1,0 +1,134 @@
+root {
+  padding-top: 1rem;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+}
+
+.subtext {
+  text-align: center;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.66666;
+  padding-bottom: 1rem;
+}
+
+.thinRow {
+  max-width: 600px;
+  margin: auto;
+}
+
+.section {
+  lost-utility: clearfix;
+  padding: 0 5%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 2rem;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.portfolioItem {
+  padding-top: 12vh;
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.blue {
+  color: #9AEFDD;
+}
+
+.subhead {
+  font-family: "Factoria", serif;
+  font-weight: 400;
+  border-bottom: 4px solid #9AEFDD;
+  display: inline-block;
+  padding-bottom: .25rem;
+  margin-bottom: .5rem;
+}
+
+.portfolioHeading {
+  font-size: 3.333333em;
+  line-height: 1.21;
+  margin: 0;
+}
+
+.skills {
+  font-weight: 100;
+  margin: 0;
+  margin-top: .3rem;
+}
+
+.slash {
+  color: white;
+}
+
+.copy {
+  -webkit-font-smoothing: antialiased;
+  lost-column: 1/1;
+  font-size: 1rem;
+}
+
+.images {
+  lost-column: 1/1;
+}
+
+.smallImages {
+  display: none;
+}
+
+@media(min-width: 700px) {
+  .copy {
+    lost-column: 1/2;
+  }
+  .images {
+    lost-column: 1/2;
+  }
+}
+
+@media(min-width: 1200px) {
+  .copy {
+    lost-column: 4/12;
+    font-size: 1.13rem;
+    padding-top: 8rem;
+  }
+  .images {
+    lost-column: 8/12;
+    padding-left: 5vw;
+  }
+  .smallImages {
+    display: block;
+  }
+  .bigImage img {
+    border-radius: 0;
+  }
+}
+
+.smallImages img {
+  width: 25%;
+  display: inline-block;
+  margin-right: 13%;
+  margin-bottom: 4rem;
+}
+
+.smallImages img:first-child {
+  width: 23%;
+}
+
+.smallImages img:last-child {
+  margin-right: 0;
+}
+
+.bigImage img {
+  width: 100%;
+  line-height: 1;
+  margin-bottom: -8px;
+  border-radius: 4px;
+}
+
+.processDescription {
+  font-weight: 100;
+  line-height: 1.66666;
+  max-width: 500px;
+}

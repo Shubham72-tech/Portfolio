@@ -9,6 +9,8 @@ import {Router, Route, IndexRoute} from "react-router";
 import SiteContainer from "./SiteContainer";
 import Homepage from 'components/Site/Homepage/Homepage';
 import Process from 'components/Site/Process/Process';
+import Portfolio from 'components/Site/Portfolio/Portfolio';
+import Speaking from 'components/Site/Speaking/Speaking';
 
 // Application
 import AppContainer from "./AppContainer";
@@ -20,6 +22,8 @@ module.exports = (
 		<Route path="/" component={SiteContainer}>
 			<IndexRoute component={Homepage} />
 			<Route path="doing" component={Process} />
+      <Route path="making-stuff" component={Portfolio} />
+      <Route path="speaking" component={Speaking} />
 		</Route>
 
 		{/*Application*/}

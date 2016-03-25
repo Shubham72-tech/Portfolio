@@ -7,16 +7,16 @@ import Footer from 'components/Site/Footer/Footer';
 import styles from 'global/Site.css';
 
 export default class AppContainer extends Component {
-	render () {
+  render () {
     const {children} = this.props
-		return (
+    return (
       <div className={styles.root}>
         <Nav />
-  			<main>
+        <main>
           {this.props.children}
-  			</main>
-				<Footer />
+        </main>
+        <Footer />
       </div>
-		);
-	}
+    );
+  }
 }

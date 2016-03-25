@@ -21,7 +21,7 @@ export default class Process extends Component {
     return(
       <div id="process">
         <Wrapper className={s.root}>
-          <h1 className={[m.alpha, s.heading].join(' ')}>What I do</h1>
+          <h1 className={[m.alpha, s.heading].join(' ')}>What I Do</h1>
           <div className={s.thinRow}>
             <p className={s.subtext}>
               I plan, design, build, test and iterate on products and sites for people with exciting ideas and wonderful stories to tell. While I’m available for any phase of a design or build, I’m at my best working directly with founders, taking awesome ideas from plan through to launch.
@@ -105,7 +105,7 @@ export default class Process extends Component {
               <div className={s.copy}>
                 <h2 className={[s.processHeading, s.pinkHeading].join(' ')} style={ { backgroundImage: `url(${headerShapes})`} }>The making shit better stuff</h2>
                 <p className={[s.skills, s.pink].join(' ')}>
-                  User &amp; A/B Testing <span className={s.slash}>/</span> Rapid Iteration <span className={s.slash}>/</span> Feature Enhancement 
+                  User &amp; A/B Testing <span className={s.slash}>/</span> Rapid Iteration <span className={s.slash}>/</span> Feature Enhancement
                 </p>
                 <p className={s.processDescription}>
                   I’m always happy to stick around after launching a project into the wilderness of the internet. Iterating on an already lovely product is a wonderful feeling.
