@@ -3,6 +3,24 @@
   border-bottom: 2px solid var(--color-primary);
 }
 
+.heading {
+  width: 100%;
+  text-align: center;
+}
+
+.subtext {
+  text-align: center;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.66666;
+  padding-bottom: 1rem;
+}
+
+.thinRow {
+  max-width: 600px;
+  margin: auto;
+}
+
 .greeting {
   font-size: 2.4rem;
 }
@@ -121,7 +139,22 @@
   margin: auto;
 }
 
+.cta[disabled] {
+  opacity: .1;
+}
+
 .cta:hover {
   background: var(--color-link);
   color: #222;
+}
+
+.link {
+  color: var(--color-link);
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: white;
+  border-bottom-color: var(--color-link);
 }

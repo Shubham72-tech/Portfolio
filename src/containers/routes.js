@@ -24,13 +24,12 @@ module.exports = (
 			<IndexRoute component={Homepage} />
 			<Route path="doing" component={Process} />
       <Route path="making-stuff" component={Portfolio} />
-      <Route path="making-stuff/for-you" component={Hire} />
       <Route path="speaking" component={Speaking} />
 		</Route>
 
 		{/*Application*/}
-		<Route path="/app" component={AppContainer}>
-			<IndexRoute component={MainScreen} />
+		<Route path="/making-stuff/for-you" component={AppContainer}>
+			<IndexRoute component={Hire} />
 		</Route>
 	</Router>
 );

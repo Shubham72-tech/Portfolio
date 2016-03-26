@@ -1,21 +1,30 @@
-import React, {Component} from "react";
-import Transmit from "react-transmit";
+import React, {Component, PropTypes} from "react";
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
 
-import Sidebar from 'components/App/Sidebar/Sidebar';
+import reducers from '../reducers';
+import promise from 'redux-promise';
+
+import Wrapper from 'components/Global/Wrapper/Wrapper';
+import Nav from 'components/Site/Nav/Nav';
+import Footer from 'components/Site/Footer/Footer';
+
+import styles from 'global/Site.css';
+
+const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 export default class AppContainer extends Component {
-	/**
-	 * Runs on server and client.
-	 */
-	render () {
-		return (
-			<div>
-				<Sidebar />
-				<main>
-					<h1>Dat app do</h1>
-					{this.props.children}
-				</main>
-			</div>
-		);
-	}
+  render () {
+    const {children} = this.props
+    return (
+      <Provider store={createStoreWithMiddleware(reducers)}>
+        <div className={styles.root}>
+          <Nav />
+          <main>
+            {children}
+          </main>
+        </div>
+      </Provider>
+    );
+  }
 }
