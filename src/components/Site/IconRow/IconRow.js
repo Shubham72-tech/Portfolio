@@ -20,19 +20,19 @@ export default class IconRow extends Component {
     return (
       <div className={classNames}>
         <div className={s.icon}>
-          <img src={KeyholeIcon} />
+          <img src="images/icons/keyhole.svg" />
         </div>
         <div className={s.icon}>
-          <img src={LanternIcon} className={s.lantern} />
+          <img src="images/icons/lantern.svg" className={s.lantern} />
         </div>
         <div className={s.icon}>
-          <img src={BoltIcon} />
+          <img src="images/icons/bolt.svg" />
         </div>
         <div className={s.icon}>
-          <img src={AnchorIcon} />
+          <img src="images/icons/anchor.svg" />
         </div>
         <div className={s.icon}>
-          <img src={HeartIcon} />
+          <img src="images/icons/heart.svg" />
         </div>
       </div>
     );
