@@ -20,9 +20,9 @@ export default class Menu extends Component {
         defaultStyle={{rootY: 30, topY: 10, bottomY: 10, pop: .7}}
         style={{
           rootY: spring(0, {stiffness: 100, damping: 10}),
-          topY: spring(0, {stiffness: 80, damping: 9}),
-          bottomY: spring(0, {stiffness: 80, damping: 9}),
-          pop: spring(1, {stiffness: 80, damping: 7}),
+          topY: spring(0, {stiffness: 80, damping: 12}),
+          bottomY: spring(0, {stiffness: 80, damping: 12}),
+          pop: spring(1, {stiffness: 60, damping: 21}),
         }}>
         { value =>
           <div className={s.root} style={{transform: `translateY(${value.rootY}vh)`}}>
@@ -32,15 +32,15 @@ export default class Menu extends Component {
                   <div className={s.imageContainer}>
                     <img src={bolt} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>Home</Link>
-                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>About</Link>
+                  <Link to="/" className={s.link} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>Home</Link>
+                  <Link to="/" className={s.link} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>About</Link>
                 </div>
                 <div className={s.col}>
                   <div className={s.imageContainer}>
                     <img src={lantern} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/doing" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>What I do</Link>
-                  <Link to="/making-stuff" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>My work</Link>
+                  <Link to="/doing" className={s.link} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>What I do</Link>
+                  <Link to="/making-stuff" className={s.link} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>My work</Link>
                 </div>
               </div>
 
@@ -49,15 +49,15 @@ export default class Menu extends Component {
                   <div className={s.imageContainer}>
                     <img src={anchor} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/speaking" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Speaking</Link>
-                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Workshops</Link>
+                  <Link to="/speaking" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Speaking</Link>
+                  <Link to="/" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Workshops</Link>
                 </div>
                 <div className={s.col}>
                   <div className={s.imageContainer}>
                     <img src={heart} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Exploration</Link>
-                  <Link to="/" className={[s.link, m.epsilon].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Mentorship</Link>
+                  <Link to="/" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Exploration</Link>
+                  <Link to="/" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Mentorship</Link>
                 </div>
               </div>
 

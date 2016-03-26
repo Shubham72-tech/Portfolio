@@ -15,13 +15,23 @@
 
 .bioBlock {
   -webkit-font-smoothing: antialiased;
-  lost-column: 3/4;
-  max-width: 500px;
+  max-width: 600px;
+  padding: 0 10%;
 }
 
 .bioBlock p {
   position: relative;
   orphans: 3;
+  font-size: .8rem;
+}
+
+@media(min-width: 700px) {
+  .bioBlock {
+    padding: 0;
+  }
+  .bioBlock p {
+    font-size: var(--font-size-theta);
+  }
 }
 
 .bioBlock p:first-child:before {

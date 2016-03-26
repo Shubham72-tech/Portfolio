@@ -19,9 +19,9 @@ import headerShapes from './header-shapes.svg';
 export default class Process extends Component {
   render() {
     return(
-      <div id="process">
-        <Wrapper className={s.root}>
-          <h1 className={[m.alpha, s.heading].join(' ')}>What I Do</h1>
+      <div id="process" className={s.root}>
+        <Wrapper>
+          <h1 className={s.heading}>What I Do</h1>
           <div className={s.thinRow}>
             <p className={s.subtext}>
               I plan, design, build, test and iterate on products and sites for people with exciting ideas and wonderful stories to tell. While I’m available for any phase of a design or build, I’m at my best working directly with founders, taking awesome ideas from plan through to launch.

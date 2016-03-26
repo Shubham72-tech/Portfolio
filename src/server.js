@@ -44,6 +44,7 @@ try {
             <html lang="en-us">
               <head>
                 <meta charset="utf-8">
+                <meta name="viewport" content="initial-scale=1, maximum-scale=1">
                 <title>Scott is… your m8</title>
                 <link rel="shortcut icon" href="/favicon.ico">
                 ${styleTag}

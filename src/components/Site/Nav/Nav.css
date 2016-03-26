@@ -5,11 +5,15 @@
 .root {
   color: #444;
   lost-utility: clearfix;
-  padding: 3rem 0;
   text-align: right;
   z-index: 6;
   width: 100%;
   background: #222;
+  padding: 2rem 10% 1rem;
+}
+
+@media(min-width: 63rem) {
+  .root { padding: 3rem 0; }
 }
 
 .fixed {

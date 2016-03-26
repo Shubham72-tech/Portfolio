@@ -16,7 +16,7 @@ export default class Homepage extends Component {
         <Wrapper className={s.root}>
           <div className={s.thinRow}>
             <IconRow modifier="left" />
-            <h1 className={[m.alpha, s.heading].join(' ')}>Hi there</h1>
+            <h1 className={s.heading}>Hi there</h1>
             <IntroSection />
           </div>
         </Wrapper>

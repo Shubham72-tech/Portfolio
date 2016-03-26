@@ -1,12 +1,28 @@
 .root {
-  padding-bottom: 4rem;
   border-bottom: 2px solid var(--color-primary);
+  padding: 2rem 10%;
 }
 
 .heading {
-  width: 100%;
+  font-size: 3rem;
+  padding: 0 10%;
   text-align: center;
+  line-height: 1.1;
+  width: 100%;
 }
+
+@media(min-width: 700px) {
+  .root {
+    padding: 4rem 0;
+  }
+  .heading {
+    font-size: var(--font-size-alpha);
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 1.4rem;
+  }
+}
+
 
 .subtext {
   text-align: center;
@@ -14,6 +30,19 @@
   -webkit-font-smoothing: antialiased;
   line-height: 1.66666;
   padding-bottom: 1rem;
+  font-size: .8rem;
+  padding: 0 10%;
+}
+
+@media(min-width: 700px) {
+  .subtext {
+    font-size: 1rem;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+  .greeting {
+    font-size: 2.4rem;
+  }
 }
 
 .thinRow {
@@ -21,16 +50,19 @@
   margin: auto;
 }
 
-.greeting {
-  font-size: 2.4rem;
-}
-
 .form {
   max-width: 43rem;
   margin: auto;
-  font-size: 1.2rem;
+  font-size: .8rem;
   font-weight: 100;
   line-height: 2.1;
+}
+
+@media(min-width: 850px) {
+  .form {
+    font-size: 1.2rem;
+    padding: 0;
+  }
 }
 
 .form p {
@@ -47,7 +79,7 @@
   display: inline-block;
   width: auto;
   background: rgba(0,0,0,.15);
-  padding: .8rem;
+  padding: .4rem;
 }
 
 .inlineInput:focus {
@@ -111,13 +143,18 @@
 .textarea {
   background: rgba(0,0,0,.2);
   border: none;
-  font-size: 1.2rem;
   border-left: 2px solid var(--color-link);
   width: 100%;
-  width: calc(100% + 2rem);
-  padding: 1rem 2rem;
-  padding-left: 2rem;
-  margin-left: -2rem;
+  padding: 1rem;
+}
+
+@media(min-width: 850px) {
+  .textarea {
+    font-size: 1.2rem;
+    margin-left: -2rem;
+    width: calc(100% + 2rem);
+    padding: 1rem 2rem;
+  }
 }
 
 .ctaWrap {
@@ -126,17 +163,24 @@
 
 .cta {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 100;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: .24rem;
-  padding: 1.6rem 8rem;
+  padding: 1rem 5rem;
   text-align: center;
   border: 1px solid var(--color-link);
   border-radius: 999px;
   background: none;
   margin: auto;
+}
+
+@media(min-width: 850px) {
+  .cta {
+    font-size: 1.2rem;
+    padding: 1.6rem 8rem;
+  }
 }
 
 .cta[disabled] {
