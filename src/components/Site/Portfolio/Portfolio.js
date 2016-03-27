@@ -14,7 +14,7 @@ export default class Portfolio extends Component {
           <h1 className={[m.alpha, s.heading].join(' ')}>My Work</h1>
           <div className={s.thinRow}>
             <p className={s.subtext}>
-              I plan, design, build, test and iterate on products and sites for people with exciting ideas and wonderful stories to tell. While I’m available for any phase of a design or build, I’m at my best working directly with founders, taking awesome ideas from plan through to launch.
+              I’ve been lucky enough to work on loads of pretty cool projects, including huge enterprise web apps, Government sites, mobile apps and lovely interfaces for hipster coffee drinkers.
             </p>
             <IconRow />
           </div>

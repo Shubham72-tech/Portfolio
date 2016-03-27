@@ -1,0 +1,55 @@
+.super {
+  height: 60vh;
+  position: relative;
+  display: block;
+}
+
+.root {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+}
+
+.root svg {
+  width: 300px;
+  animation: poke 3s infinite;
+}
+
+[id^=bubble-one] {
+  opacity: 1;
+  transform: translateY(10px);
+  animation: pop 2s infinite;
+}
+
+[id^=bubble-two] {
+  opacity: 1;
+  transform: translateY(10px);
+  animation: pop 2s infinite;
+  animation-delay: .4s;
+}
+
+[id^=bubble-three] {
+  opacity: 1;
+  transform: translateY(10px);
+  animation: pop 2s infinite;
+  animation-delay: .8s;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}

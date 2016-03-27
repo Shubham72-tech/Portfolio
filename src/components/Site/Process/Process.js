@@ -17,6 +17,12 @@ import ItIcon from 'components/Site/Icons/Iteration/Iteration';
 import headerShapes from './header-shapes.svg';
 
 export default class Process extends Component {
+  componentDidMount() {
+    ghost.init({
+    clientId: "ghost-frontend",
+    clientSecret: "<letters-and-numbers>"
+   });
+  }
   render() {
     return(
       <div id="process" className={s.root}>
@@ -40,7 +46,7 @@ export default class Process extends Component {
                   Roadmapping <span className={s.slash}>/</span> Exploration <span className={s.slash}>/</span> Planning <span className={s.slash}>/</span> Wireframing
                 </p>
                 <p className={s.processDescription}>
-                  I think that the best ideas need time, discussion, and lots of scribbling. Defining the problems your product is trying to solve is super useful and I’m pretty great at this xoxo
+                  I think that the best ideas need time, discussion, and lots of scribbling. Defining the problems your product is trying to solve is super useful. I have a tonne of experience defining—and solving—problems that lead to improvements in important things like activation, conversion and churn rate.
                 </p>
               </div>
               <div className={s.icons}>
@@ -74,7 +80,7 @@ export default class Process extends Component {
                   UI Design <span className={s.slash}>/</span> Icon Design <span className={s.slash}>/</span> Typography & Grids <span className={s.slash}>/</span> Styleguides
                 </p>
                 <p className={s.processDescription}>
-                  Interaction design is probably my biggest area of expertise. Designing the ‘in-betweens’ is a vital part of my approach to design. Sculpting all the tiny elements surrounding an interface’s interactions is my absolute favourite thing to do.
+                  Interaction design is probably my biggest area of expertise. Designing the ‘in-betweens’ is a vital part of my approach to design. Sculpting all the tiny elements surrounding an interface’s interactions to increase engagement and create conversations is my absolute favourite thing to do.
                 </p>
               </div>
               <div className={s.icons}>
@@ -108,7 +114,7 @@ export default class Process extends Component {
                   User &amp; A/B Testing <span className={s.slash}>/</span> Rapid Iteration <span className={s.slash}>/</span> Feature Enhancement
                 </p>
                 <p className={s.processDescription}>
-                  I’m always happy to stick around after launching a project into the wilderness of the internet. Iterating on an already lovely product is a wonderful feeling.
+                  I’m always happy to stick around after launching a project into the wilderness of the internet. Iterating on an already lovely product is a wonderful feeling. I’ll happily work with qualitative and quantitative data to make sure what we make is as delightful (and profitable) as possible.
                 </p>
               </div>
               <div className={s.icons}>

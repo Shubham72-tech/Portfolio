@@ -12,6 +12,8 @@ import Process from 'components/Site/Process/Process';
 import Portfolio from 'components/Site/Portfolio/Portfolio';
 import Speaking from 'components/Site/Speaking/Speaking';
 import Hire from 'components/Site/Hire/Hire';
+import Blog from 'components/Site/Blog/Blog';
+import Post from 'components/Site/Post/Post';
 
 // Application
 import AppContainer from "./AppContainer";
@@ -25,6 +27,8 @@ module.exports = (
 			<Route path="doing" component={Process} />
       <Route path="making-stuff" component={Portfolio} />
       <Route path="speaking" component={Speaking} />
+      <Route path="writing" component={Blog} />
+      <Route path="writing/about/:slug" component={Post} />
 		</Route>
 
 		{/*Application*/}

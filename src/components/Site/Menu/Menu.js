@@ -50,7 +50,7 @@ export default class Menu extends Component {
                     <img src={anchor} style={{transform: `scale(${value.pop})`}} />
                   </div>
                   <Link to="/speaking" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Speaking</Link>
-                  <Link to="/" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Workshops</Link>
+                  <Link to="/writing" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Writing</Link>
                 </div>
                 <div className={s.col}>
                   <div className={s.imageContainer}>

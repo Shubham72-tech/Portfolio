@@ -11,8 +11,8 @@ import HeartIcon from './icons/heart.svg';
 
 export default class IconRow extends Component {
   render() {
-    const {modifier} = this.props;
-    let classNames = [s.root];
+    const {modifier, className} = this.props;
+    let classNames = [s.root, className];
     if(modifier) {
       classNames.push(s[modifier]);
     }
@@ -20,19 +20,19 @@ export default class IconRow extends Component {
     return (
       <div className={classNames}>
         <div className={s.icon}>
-          <img src="images/icons/keyhole.svg" />
+          <img src="/images/icons/keyhole.svg" />
         </div>
         <div className={s.icon}>
-          <img src="images/icons/lantern.svg" className={s.lantern} />
+          <img src="/images/icons/lantern.svg" className={s.lantern} />
         </div>
         <div className={s.icon}>
-          <img src="images/icons/bolt.svg" />
+          <img src="/images/icons/bolt.svg" />
         </div>
         <div className={s.icon}>
-          <img src="images/icons/anchor.svg" />
+          <img src="/images/icons/anchor.svg" />
         </div>
         <div className={s.icon}>
-          <img src="images/icons/heart.svg" />
+          <img src="/images/icons/heart.svg" />
         </div>
       </div>
     );
