@@ -16,9 +16,6 @@ export default class IntroSection extends Component {
             I’m a product designer, developer, speaker and internet tinkerer.
             I love turning exciting ideas into beautiful&nbsp;products.
           </p>
-          <p className={s.links}>
-            <Link to="/doing">What I Do</Link> / <Link to="/making-stuff">See My Work</Link>
-          </p>
         </div>
       </div>
     );

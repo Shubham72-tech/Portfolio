@@ -9,11 +9,11 @@
   z-index: 6;
   width: 100%;
   background: #222;
-  padding: 2rem 10% 1rem;
+  padding: 1rem 10% 1rem;
 }
 
 @media(min-width: 63rem) {
-  .root { padding: 3rem 0; }
+  .root { padding: 1.4rem 0; }
 }
 
 .fixed {
@@ -40,6 +40,10 @@
   /*transition: all .4s ease-in-out;*/
 }
 
+.closeButton {
+  padding-top: .6rem;
+}
+
 .closeButton .line:nth-child(2) {
   transform: scale(0);
 }
@@ -59,6 +63,7 @@
 .cta {
   display: inline-block;
   text-align: center;
+  padding-top: .5rem;
 }
 
 .hire {

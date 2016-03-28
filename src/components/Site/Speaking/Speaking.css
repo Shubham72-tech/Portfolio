@@ -28,7 +28,7 @@
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
   line-height: 1.66666;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-size: .8rem;
   padding: 0 10%;
 }
@@ -37,7 +37,7 @@
   .subtext {
     font-size: 1rem;
     padding: 0;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -49,13 +49,19 @@
 .subtitle {
   font-size: 2.4rem;
   padding-top: 3rem;
-  margin-top: 3rem;
+  margin-top: 0;
   padding-bottom: 1rem;
   background-position: 4rem 4.4rem;
   background-repeat: no-repeat;
   overflow: visible;
   position: relative;
   line-height: 1.1;
+}
+
+@media(min-height: 900px) {
+  .subtitle {
+    margin-top: 2rem;
+  }
 }
 
 .subtitle:before {

@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Motion, StaggeredMotion, spring} from 'react-motion';
+import {Link} from 'react-router';
 
 import Btn from 'components/Global/Btn/Btn';
 import Wrapper from 'components/Global/Wrapper/Wrapper';
@@ -52,8 +53,8 @@ export default class Nav extends Component {
               }
             </StaggeredMotion>
             </a>
-            <div className={s.cta}>
-              <a href="/hire" className={[s.hire, s.theta].join(' ')}>Hire me</a>
+            <Link to="/making-stuff/for-you" className={s.cta}>
+              <span className={[s.hire, s.theta].join(' ')}>Hire me</span>
               <div className={s.squiggle}>
                 <svg width="74px" height="6px" viewBox="0 0 74 6">
                     <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
@@ -65,7 +66,7 @@ export default class Nav extends Component {
                     </g>
                 </svg>
               </div>
-            </div>
+            </Link>
           </Wrapper>
         </nav>
       </div>

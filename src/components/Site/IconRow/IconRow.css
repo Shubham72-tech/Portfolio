@@ -1,7 +1,7 @@
 .root {
   vertical-align: middle;
   lost-utility: clearfix;
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
   padding: 0 10%;
 }
@@ -22,10 +22,13 @@
 
 .icon {
   lost-column: 1/5;
-  height: 2rem;
+  height: 2.4rem;
 }
 
-@media(min-width: 700px) {
+@media(min-height: 900px) {
+  .root {
+    max-width: 500px;
+  }
   .icon {
     height: 3rem;
   }

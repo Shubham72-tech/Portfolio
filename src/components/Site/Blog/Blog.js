@@ -55,6 +55,7 @@ class Blog extends Component {
             <p className={s.subtext}>
               A patchwork collection of thoughts, ramblings and maybe even haikus of varying levels of coherence, relevance and self–indulgence. Who knows, you might actually find something useful on a design blog (you won't).
             </p>
+            <IconRow />
           </div>
           { posts && posts.length > 0 ?
               <div className={s.posts}>

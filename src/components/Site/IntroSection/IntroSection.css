@@ -3,16 +3,6 @@
   width: 100%;
 }
 
-.imageBlock {
-  lost-column: 1/4;
-}
-
-.imageBlock img {
-  border-radius: 100%;
-  border: 2px solid var(--color-primary);
-  margin-top: 1rem;
-}
-
 .bioBlock {
   -webkit-font-smoothing: antialiased;
   max-width: 600px;
@@ -30,7 +20,7 @@
     padding: 0;
   }
   .bioBlock p {
-    font-size: var(--font-size-theta);
+    font-size: 1rem;
   }
 }
 

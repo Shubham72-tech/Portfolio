@@ -22,8 +22,47 @@ const validate = values => {
 }
 
 class Hire extends Component {
+
+  state = {
+    isProject: true,
+    isSpeaking: false,
+    isQuestion: false,
+  }
+
+  constructor(props) {
+    super(props);
+    this.handleChange.bind(this);
+  }
+
+  handleChange(e) {
+    const value = e.target.value;
+    if(value == "Project Enquiry") {
+      this.setState({
+        isProject: true,
+        isSpeaking: false,
+        isQuestion: false,
+      })
+    }
+    else if(value == "Speaking Request") {
+      this.setState({
+        isProject: false,
+        isSpeaking: true,
+        isQuestion: false,
+      })
+    }
+    else if(value == "Question") {
+      this.setState({
+        isProject: false,
+        isSpeaking: false,
+        isQuestion: true,
+      })
+    }
+  }
+
   render() {
     const { handleSubmit, submitting, contact, fields: { name, email, description, budget, subject, projectName} } = this.props;
+    const {isProject, isSpeaking, isQuestion} = this.state;
+    console.log(this.state);
     return (
       <div className={s.root}>
         { contact.status == 'success' ?
@@ -40,21 +79,39 @@ class Hire extends Component {
             <CuteAsFuck />
           </div>
           :
+          <div>
+            <Wrapper>
+              <h1 className={[m.alpha, s.heading].join(' ')}>Get In Touch</h1>
+              <div className={s.thinRow}>
+                <p className={s.subtext}>
+                  Want to hire me? Or have me speak at your conference? Or just ask me a question? Fill in the love letter below and I’ll get back to you. Smaller enquiry? Why not <a href="http://twitter.com/scott_riley" className={s.link}>bug me on Twitter</a>?
+                </p>
+                <IconRow />
+              </div>
+            </Wrapper>
             <form className={s.form} onSubmit={handleSubmit(this.props.sendMessage)}>
               <p className={s.greeting}>Hey Scott!</p>
               <p>I want you to
                 <label className={s.label}>
-                  <select name="subject" className={s.select} value={"Project Enquiry"} {...subject}>
+                  <select name="subject" className={s.select} defaultValue={"Project Enquiry"} {...subject} onChange={ (e) => { this.handleChange(e) }}>
                     <option value="Project Enquiry">make something awesome for me</option>
                     <option value="Speaking Request">speak at my lovely conference</option>
                     <option value="Question">answer my question</option>
                   </select>
                 </label>
               </p>
-               {projectName.touched && projectName.error && <div className={s.error}>{projectName.error}</div>}
-              <p>
-                My project is called <input className={s.inlineInput} name="projectName" placeholder="Uber for Cats" {...projectName} /> and it’s going to be awesome.
-              </p>
+              { isProject ?
+                  <p>
+                    My project is called <input className={s.inlineInput} name="projectName" placeholder="Uber for Cats" {...projectName} /> and it’s going to be super dope.
+                  </p>
+                : isSpeaking ?
+                  <p>
+                    My conference is called <input className={s.inlineInput} name="projectName" placeholder="SuperDopeConf" {...projectName} /> and it’s going to be super dope.
+                  </p>
+                : null
+              }
+
+              { isProject ?
               <p>
                 I’ve got a budget of
                 <label className={s.label}>
@@ -66,16 +123,46 @@ class Hire extends Component {
                   </select>
                 </label> to make it happen.
               </p>
+              : null }
 
-              <p>
-                I heard you like nice, succinct descriptions of what makes my idea so wonderful, so here’s a short description of what it is, and why I’m so excited to make it:
-              </p>
+              { isProject ?
+                <div>
+                  <p>
+                    I heard you like nice, succinct descriptions of what makes my idea so wonderful, so here’s a short description of what it is, and why I’m so excited to make it:
+                  </p>
 
-              <p>
-                <textarea className={s.textarea} rows="10" name="description" {...description}>
+                  <p>
+                    <textarea className={s.textarea} rows="10" name="description" {...description}>
 
-                </textarea>
-              </p>
+                    </textarea>
+                  </p>
+                </div>
+              : isSpeaking ?
+                <div>
+                  <p>
+                    Here’s a lovely description of what my conference is all about:
+                  </p>
+
+                  <p>
+                    <textarea className={s.textarea} rows="10" name="description" {...description}>
+
+                    </textarea>
+                  </p>
+                </div>
+              :
+                <div>
+                  <p>
+                    Here’s my question yo:
+                  </p>
+
+                  <p>
+                    <textarea className={s.textarea} rows="10" name="description" {...description}>
+
+                    </textarea>
+                  </p>
+                </div>
+              }
+
               {email.touched && email.error && <div className={s.error}>{email.error}</div>}
               <p>
                 Email me at <input className={s.inlineInput} name="email" type="email" placeholder="awesome@person.com" {...email} /> and let’s make magic.
@@ -95,7 +182,8 @@ class Hire extends Component {
                 </button>
               </p>
             </form>
-          }
+          </div>
+        }
       </div>
     );
   }
