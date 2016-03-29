@@ -68,7 +68,7 @@ export default class About extends Component {
 
             <div className={s.event}>
               <Link to="https://twitter.com/scott_riley"><h3>Twitter</h3></Link>
-              <Link to="https://instagram.com/scott_riley"><h3>GitHub</h3></Link>
+              <Link to="https://github.com/scott_riley"><h3>GitHub</h3></Link>
               <Link to="https://instagram.com/scott_riley"><h3>Instagram</h3></Link>
             </div>
 
