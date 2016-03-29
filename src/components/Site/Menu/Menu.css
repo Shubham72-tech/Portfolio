@@ -79,3 +79,7 @@
     height: auto;
   }
 }
+
+.disabled {
+  opacity: .4;
+}

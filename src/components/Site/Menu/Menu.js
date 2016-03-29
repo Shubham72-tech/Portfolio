@@ -33,7 +33,7 @@ export default class Menu extends Component {
                     <img src={bolt} style={{transform: `scale(${value.pop})`}} />
                   </div>
                   <Link to="/" className={s.link} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>Home</Link>
-                  <Link to="/" className={s.link} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>About</Link>
+                  <Link to="/talking-about-himself-again" className={s.link} style={{transform: `translateY(${value.topY}vh)`}} onClick={onLinkClick}>About</Link>
                 </div>
                 <div className={s.col}>
                   <div className={s.imageContainer}>
@@ -52,12 +52,12 @@ export default class Menu extends Component {
                   <Link to="/speaking" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Speaking</Link>
                   <Link to="/writing" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Writing</Link>
                 </div>
-                <div className={s.col}>
+                <div className={[s.col, s.disabled].join(' ')}>
                   <div className={s.imageContainer}>
                     <img src={heart} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <Link to="/" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Exploration</Link>
-                  <Link to="/" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Mentorship</Link>
+                  <span className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Exploration</span>
+                  <span to="/" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Mentorship</span>
                 </div>
               </div>
 
