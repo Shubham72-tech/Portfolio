@@ -19,7 +19,7 @@ export default class Footer extends Component {
               &copy; Forever and ever until the end of time
             </p>
             <p className={s.nav}>
-              <Link to="/" className={[s.link].join(' ')}>Home</Link> / <Link to="/" className={[s.link].join(' ')}>About</Link> / <Link to="/" className={[s.link].join(' ')}>What I do</Link> / <Link to="/" className={[s.link].join(' ')}>My work</Link> / <Link to="/" className={[s.link].join(' ')}>Speaking</Link>
+              <Link to="/" className={[s.link].join(' ')}>Home</Link> / <Link to="/talking-about-himself-again" className={[s.link].join(' ')}>About</Link> / <Link to="/doing" className={[s.link].join(' ')}>What I do</Link> / <Link to="/making-stuff" className={[s.link].join(' ')}>My work</Link> / <Link to="/speaking" className={[s.link].join(' ')}>Speaking</Link>
             </p>
           </div>
         </div>
