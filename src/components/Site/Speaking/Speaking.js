@@ -26,7 +26,7 @@ export default class Speaking extends Component {
               <div className={s.event}>
                 <h3>HybridConf</h3>
                 <p className={s.meta}>‘Re-learning To Love The Web’ <span className={s.slash}>/</span> Dublin <span className={s.slash}>/</span> 2015</p>
-                <p className={s.desc}>I spoke about falling in and out of love with the web and gave a live demo where I made a cosmic world generate on screen by playing guitar at some JavaScript. I had to open for Aaron fucking Draplin. It was fun.</p>
+                <p className={s.desc}>I spoke about falling in and out of love with the web. My talk featured a live demo where I made a cosmic world generate on screen by playing guitar at some JavaScript. I had to open for Aaron fucking Draplin. It was fun.</p>
               </div>
 
               <div className={s.event}>

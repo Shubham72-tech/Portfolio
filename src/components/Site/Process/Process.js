@@ -46,7 +46,7 @@ export default class Process extends Component {
                   Roadmapping <span className={s.slash}>/</span> Exploration <span className={s.slash}>/</span> Planning <span className={s.slash}>/</span> Wireframing
                 </p>
                 <p className={s.processDescription}>
-                  I think that the best ideas need time, discussion, and lots of scribbling. Defining the problems your product is trying to solve is super useful. I have a tonne of experience defining—and solving—problems that lead to improvements in important things like activation, conversion and churn rate.
+                  The best ideas need time, discussion, and lots of scribbling. Defining the problems your product is trying to solve is super useful. I have a tonne of experience defining—and solving—problems that lead to improvements in important things like activation, conversion and churn rate.
                 </p>
               </div>
               <div className={s.icons}>
@@ -63,7 +63,7 @@ export default class Process extends Component {
                   UI Design <span className={s.slash}>/</span> Icon Design <span className={s.slash}>/</span> Typography & Grids <span className={s.slash}>/</span> Styleguides
                 </p>
                 <p className={s.processDescription}>
-                  My aproach to UI design revolves around crafting a ‘visual language’ for an interface. I never design solely in the context of static screens and do a lot of work to create robust, reusable elements. That means creating styleguides for every project. That means frontend devs wanna smooch me.
+                  My approach to UI design revolves around crafting a ‘visual language’ for an interface. I never design solely in the context of static screens and do a lot of work to create robust, reusable elements. This means creating style guides for every project. This also means frontend devs wanna smooch me.
                 </p>
               </div>
               <div className={s.icons}>
@@ -77,10 +77,10 @@ export default class Process extends Component {
               <div className={s.copy}>
                 <h2 className={[s.processHeading, s.yellowHeading].join(' ')} style={ { backgroundImage: `url(${headerShapes})`} }>The click, tap &amp;&nbsp;bounce stuff</h2>
                 <p className={[s.skills, s.yellow].join(' ')}>
-                  UI Design <span className={s.slash}>/</span> Icon Design <span className={s.slash}>/</span> Typography & Grids <span className={s.slash}>/</span> Styleguides
+                  Interaction Design <span className={s.slash}>/</span> Animations <span className={s.slash}>/</span> Interactive Prototyping
                 </p>
                 <p className={s.processDescription}>
-                  Interaction design is probably my biggest area of expertise. Designing the ‘in-betweens’ is a vital part of my approach to design. Sculpting all the tiny elements surrounding an interface’s interactions to increase engagement and create conversations is my absolute favourite thing to do.
+                  Interaction design is my biggest area of expertise. Designing the ‘in-betweens’ is a vital part of my approach to design. Sculpting the tiny elements surrounding an interface’s interactions to increase engagement and create conversations is my absolute favourite thing to do.
                 </p>
               </div>
               <div className={s.icons}>
@@ -97,7 +97,7 @@ export default class Process extends Component {
                   Frontend <span className={s.slash}>/</span> React &amp; Redux Prototyping <span className={s.slash}>/</span> API Integration
                 </p>
                 <p className={s.processDescription}>
-                  I love bringing ideas to life in the browser. I’m super comfortable working with React and Redux to build out interfaces and websites—whether it’s a simple, performant marketing site, or a big, fancy interface talking to multiple APIs.
+                  I love bringing ideas to life in the browser. I’m super comfortable working with React and Redux to build interfaces and websites, whether it’s a simple, performant marketing site or a big, fancy interface talking to multiple APIs.
                 </p>
               </div>
               <div className={s.icons}>

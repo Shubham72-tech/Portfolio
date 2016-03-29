@@ -56,7 +56,7 @@ export default class Portfolio extends Component {
                   UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> React & Redux <span className={s.slash}>/</span> API Build
                 </p>
                 <p className={s.processDescription}>
-                  Hit Me Up is a service that lets anyone sign up and quickly get a simple API endpoint to start sending data to. It’s intended for frontend devs who want to make super quick contact forms or messaging apps without coding their own API endpoint.
+                  Hit Me Up is a service that helps frontend devs make super quick contact forms or messaging apps, without coding their own API endpoint. Anyone can sign up and start sending data to it.
                 </p>
               </div>
               <div className={s.images}>
@@ -81,7 +81,7 @@ export default class Portfolio extends Component {
                   UX <span className={s.slash}>/</span> Interaction Design <span className={s.slash}>/</span> Frontend
                 </p>
                 <p className={s.processDescription}>
-                  I led the UX, interaction design and frontend build of a redesigned Manchester City Council website, taking it from an outdated, clunky mess to a pretty lovely responsive site that helps thousands of people do boring stuff every day.
+                  I led the UX, interaction design and frontend build of a redesigned Manchester City Council website. We took it from an outdated, clunky mess to a pretty lovely, responsive site that helps thousands of people do boring stuff everyday.
                 </p>
               </div>
               <div className={s.images}>
