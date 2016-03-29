@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Link} from "react-router";
 
 import Btn from 'components/Global/Btn/Btn';
 import Wrapper from 'components/Global/Wrapper/Wrapper';
@@ -34,6 +35,9 @@ export default class Homepage extends Component {
               </p>
               <p className={s.processDescription}>
                 I led UI at Pact for almost two years and oversaw two major UI and iOS app redesigns, as well as dozens of new features, iterations, successes and failures. It was a beautiful time.
+              </p>
+              <p className={s.processDescription}>
+                <Link to="/making-stuff">See more work</Link>
               </p>
             </div>
             <div className={s.images}>

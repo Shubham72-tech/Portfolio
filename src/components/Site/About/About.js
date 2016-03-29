@@ -8,6 +8,9 @@ import s from './About.css';
 import m from 'global/modifiers';
 
 export default class About extends Component {
+  componentDidMount() {
+    window.scrollTo(0,0,);
+  }
   render() {
     return (
       <div className={s.root}>

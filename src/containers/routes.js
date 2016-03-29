@@ -3,7 +3,7 @@
 * application and site.
 **/
 import React from "react";
-import {Router, Route, IndexRoute} from "react-router";
+import {Router, Route, IndexRoute, browserHistory} from "react-router";
 
 // Marketing site
 import SiteContainer from "./SiteContainer";
@@ -22,7 +22,7 @@ import AppContainer from "./AppContainer";
 import MainScreen from 'components/App/MainScreen/MainScreen';
 
 module.exports = (
-	<Router>
+	<Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
 		{/*Marketing site*/}
 		<Route path="/" component={SiteContainer}>
 			<IndexRoute component={Homepage} />

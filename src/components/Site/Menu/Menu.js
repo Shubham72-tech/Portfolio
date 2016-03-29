@@ -52,12 +52,12 @@ export default class Menu extends Component {
                   <Link to="/speaking" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Speaking</Link>
                   <Link to="/writing" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Writing</Link>
                 </div>
-                <div className={[s.col, s.disabled].join(' ')}>
+                <div className={s.col}>
                   <div className={s.imageContainer}>
                     <img src={heart} style={{transform: `scale(${value.pop})`}} />
                   </div>
-                  <span className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Exploration</span>
-                  <span to="/" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Mentorship</span>
+                  <Link to="/experimenting" className={s.link} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Experiments</Link>
+                  <span className={[s.link, s.disabled].join(' ')} style={{transform: `translateY(${value.bottomY}vh)`}} onClick={onLinkClick}>Mentorship</span>
                 </div>
               </div>
 

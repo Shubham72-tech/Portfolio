@@ -191,3 +191,7 @@
   line-height: 1.66666;
   max-width: 500px;
 }
+
+.processDescription a {
+  color: var(--color-link);
+}

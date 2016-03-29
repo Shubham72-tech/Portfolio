@@ -7,6 +7,11 @@ import s from './Portfolio.css';
 import m from 'global/modifiers';
 
 export default class Portfolio extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0,0,);
+  }
+
   render() {
     return (
       <div className={s.root}>

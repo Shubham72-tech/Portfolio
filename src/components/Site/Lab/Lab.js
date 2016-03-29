@@ -7,6 +7,9 @@ import s from './Lab.css';
 import m from 'global/modifiers';
 
 export default class Portfolio extends Component {
+  componentDidMount() {
+    window.scrollTo(0,0,);
+  }
   render() {
     return (
       <div className={s.root}>
@@ -38,7 +41,7 @@ export default class Portfolio extends Component {
             </div>
             <div className={s.images}>
               <div className={s.bigImage}>
-                <img src="http://cl.ly/image/3H381R3C202z/Screen%20Shot%202015-03-19%20at%2021.16.59.png" />
+                <img src="/images/portfolio/typemotion-main.png" />
               </div>
             </div>
           </div>

@@ -34,6 +34,10 @@ class Hire extends Component {
     this.handleChange.bind(this);
   }
 
+  componentDidMount() {
+    window.scrollTo(0,0,);
+  }
+
   handleChange(e) {
     const value = e.target.value;
     if(value == "Project Enquiry") {
