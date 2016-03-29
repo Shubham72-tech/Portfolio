@@ -122,7 +122,7 @@ class Hire extends Component {
                   <select name="budget" className={s.select} {...budget} defaultValue="$10,000-$15,000" >
                     <option value="> $10,000">Less than $10,000</option>
                     <option value="$10,000-$15,000">$10,000-$15,000</option>
-                    <option value="$15,000-$25,000">$15,00-$25,000</option>
+                    <option value="$15,000-$25,000">$15,000-$25,000</option>
                     <option value="$25,000+">$25,000+</option>
                   </select>
                 </label> to make it happen.
