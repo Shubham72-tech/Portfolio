@@ -33,6 +33,9 @@ export default class Portfolio extends Component {
                 <p className={s.processDescription}>
                   I led UI at Pact for almost two years and oversaw two major UI and iOS app redesigns, as well as dozens of new features, iterations, successes and failures. It was a beautiful time.
                 </p>
+                <p className={s.processDescription}>
+                  <a href="http://pactcoffee.com" target="_blank">See it live</a>
+                </p>
               </div>
               <div className={s.images}>
                 <div className={s.smallImages}>
@@ -58,6 +61,9 @@ export default class Portfolio extends Component {
                 <p className={s.processDescription}>
                   Hit Me Up is a service that helps frontend devs make super quick contact forms or messaging apps, without coding their own API endpoint. Anyone can sign up and start sending data to it.
                 </p>
+                <p className={s.processDescription}>
+                  <a href="https://hmu.cool" target="_blank">See it live</a>
+                </p>
               </div>
               <div className={s.images}>
                 <div className={s.smallImages}>
@@ -82,6 +88,9 @@ export default class Portfolio extends Component {
                 </p>
                 <p className={s.processDescription}>
                   I led the UX, interaction design and frontend build of a redesigned Manchester City Council website. We took it from an outdated, clunky mess to a pretty lovely, responsive site that helps thousands of people do boring stuff everyday.
+                </p>
+                <p className={s.processDescription}>
+                  <a href="http://manchester.gov.uk" target="_blank">See it live</a>
                 </p>
               </div>
               <div className={s.images}>
