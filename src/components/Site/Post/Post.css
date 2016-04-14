@@ -122,11 +122,16 @@
 .postContent {
   -webkit-font-smoothing: antialiased;
   line-height: 1.6666;
-  max-width: 40rem;
+  max-width: 45rem;
   margin: auto;
   font-weight: 400;
   font-size: 1.1rem;
   color: rgba(255,255,255,.8);
+  padding: 0 5%;
+}
+
+.postContent img {
+  max-width: 100%;
 }
 
 .postContent p,
