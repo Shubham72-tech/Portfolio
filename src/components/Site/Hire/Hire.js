@@ -29,32 +29,31 @@ class Hire extends Component {
     isQuestion: false,
   }
 
-  constructor(props) {
-    super(props);
-    this.handleChange.bind(this);
-  }
-
   componentDidMount() {
     window.scrollTo(0,0,);
   }
 
-  handleChange(e) {
-    const value = e.target.value;
-    if(value == "Project Enquiry") {
+  componentWillReceiveProps(nextProps) {
+    const {subject} = nextProps.fields;
+    this.subjectChangedTo(subject.value);
+  }
+
+  subjectChangedTo(subject) {
+    if(subject == "Project Enquiry") {
       this.setState({
         isProject: true,
         isSpeaking: false,
         isQuestion: false,
       })
     }
-    else if(value == "Speaking Request") {
+    else if(subject == "Speaking Request") {
       this.setState({
         isProject: false,
         isSpeaking: true,
         isQuestion: false,
       })
     }
-    else if(value == "Question") {
+    else if(subject == "Question") {
       this.setState({
         isProject: false,
         isSpeaking: false,
@@ -97,7 +96,7 @@ class Hire extends Component {
               <p className={s.greeting}>Hey Scott!</p>
               <p>I want you to
                 <label className={s.label}>
-                  <select name="subject" className={s.select} defaultValue={"Project Enquiry"} {...subject} onChange={ (e) => { this.handleChange(e) }}>
+                  <select name="subject" className={s.select} defaultValue={"Project Enquiry"} {...subject}>
                     <option value="Project Enquiry">make something awesome for me</option>
                     <option value="Speaking Request">speak at my lovely conference</option>
                     <option value="Question">answer my question</option>
