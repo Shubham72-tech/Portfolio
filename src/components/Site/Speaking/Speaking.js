@@ -14,7 +14,7 @@ export default class Speaking extends Component {
           <h1 className={[m.alpha, s.heading].join(' ')}>Speaking</h1>
           <div className={s.thinRow}>
             <p className={s.subtext}>
-              Got a conference coming up? Got a diverse lineup and a code of conduct? Need someone to talk about creative coding, gamification or interaction design? Let’s do it.
+              Got a conference coming up? Got a diverse lineup and a proper code of conduct? Need someone to talk about creative coding, gamification or interaction design? Let’s do it.
             </p>
             <IconRow />
           </div>
@@ -55,14 +55,14 @@ export default class Speaking extends Component {
               <div className={s.event}>
                 <h3>Diversity</h3>
                 <p className={s.desc}>
-                  This is super important. I feel like an event without a diverse range of speakers (and thusly opinions and experiences) will never be great. I won’t speak at all-male or all-white events.
+                  This is super important. I feel like an event without a diverse range of speakers (and thusly opinions and experiences) will never be great. I’ll only speak at events that have a diverse lineup and a keynote speaker that isn’t another boring ass white dude.
                 </p>
               </div>
 
               <div className={s.event}>
                 <h3>A Code of Conduct</h3>
                 <p className={s.desc}>
-                  Diversity means nothing if people don’t feel safe at an event. I only speak at events that have an inclusion-focussed CoC and plans to enforce it.
+                  Diversity means nothing if people don’t feel safe at an event. I only speak at events that have a thorough, inclusion-focussed CoC and plans to enforce it.
                 </p>
               </div>
 
