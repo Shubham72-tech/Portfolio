@@ -45,6 +45,7 @@ try {
               <head>
                 <meta charset="utf-8">
                 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+                <link rel="icon" type="image/png" href="/favicon.png" />
                 <title>Scott is… your m8</title>
                 ${styleTag}
               </head>
