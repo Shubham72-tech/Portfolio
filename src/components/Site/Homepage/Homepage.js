@@ -29,12 +29,12 @@ export default class Homepage extends Component {
           <div className={s.section}>
             <div className={s.copy}>
               <h3 className={s.subhead}>Featured Work</h3>
-              <h2 className={s.portfolioHeading}>Pact Coffee</h2>
+              <h2 className={s.portfolioHeading}>WithJack</h2>
               <p className={[s.skills, s.blue].join(' ')}>
-                UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Icons <span className={s.slash}>/</span> Motion design <span className={s.slash}>/</span> Frontend
+                UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Motion design <span className={s.slash}>/</span> Frontend
               </p>
               <p className={s.processDescription}>
-                I led UI at Pact for almost two years and oversaw two major UI and iOS app redesigns, as well as dozens of new features, iterations, successes and failures. It was a beautiful time.
+                I made a lovely chatty interface for the WithJack quote process, making potential customers feel all warm and fuzzy while they signed up for insurance.
               </p>
               <p className={s.processDescription}>
                 <Link to="/making-stuff">See more work</Link>
@@ -42,12 +42,12 @@ export default class Homepage extends Component {
             </div>
             <div className={s.images}>
               <div className={s.smallImages}>
-                <img src="images/portfolio/pact-hex.png" />
-                <img src="images/portfolio/pact-circle.png" />
-                <img src="images/portfolio/pact-diamond.png" />
+                <img src="images/portfolio/wj-hex.png" />
+                <img src="images/portfolio/wj-circle.png" />
+                <img src="images/portfolio/wj-diamond.png" />
               </div>
               <div className={s.bigImage}>
-                <img src="images/portfolio/pact-main.png" />
+                <img src="images/portfolio/wj-main.png" />
               </div>
             </div>
           </div>
