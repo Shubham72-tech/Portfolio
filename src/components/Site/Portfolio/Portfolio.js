@@ -31,6 +31,34 @@ export default class Portfolio extends Component {
             <div className={s.section}>
               <div className={s.copy}>
                 <h3 className={s.subhead}>2016</h3>
+                <h2 className={s.portfolioHeading}>WithJack</h2>
+                <p className={[s.skills, s.blue].join(' ')}>
+                  UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Motion design <span className={s.slash}>/</span> Frontend
+                </p>
+                <p className={s.processDescription}>
+                  I made a lovely chatty interface for the WithJack quote process, making potential customers feel all warm and fuzzy while they signed up for insurance.
+                </p>
+                <p className={s.processDescription}>
+                  <a href="http://withjack.co.uk/quote" target="_blank">See it live</a>
+                </p>
+              </div>
+              <div className={s.images}>
+                <div className={s.smallImages}>
+                  <img src="images/portfolio/wj-hex.png" />
+                  <img src="images/portfolio/wj-circle.png" />
+                  <img src="images/portfolio/wj-diamond.png" />
+                </div>
+                <div className={s.bigImage}>
+                  <img src="images/portfolio/wj-main.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={s.portfolioItem}>
+            <div className={s.section}>
+              <div className={s.copy}>
+                <h3 className={s.subhead}>2016</h3>
                 <h2 className={s.portfolioHeading}>Pact Coffee</h2>
                 <p className={[s.skills, s.blue].join(' ')}>
                   UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Icons <span className={s.slash}>/</span> Motion design <span className={s.slash}>/</span> Frontend
