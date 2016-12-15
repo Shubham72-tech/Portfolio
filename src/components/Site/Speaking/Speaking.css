@@ -104,6 +104,38 @@
   left: 0;
 }
 
+.event iframe,
+.event .vimeo {
+  width: 100%;
+  min-height: 340px;
+}
+
+:global .vimeo,
+:global .vimeo-image {
+  width: 100%;
+  min-height: 340px;
+  position: relative;
+}
+
+:global .vimeo-play-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: none;
+  border: none;
+}
+
+:global .vimeo-play-button svg {
+  width: 80px;
+}
+
+:global .vimeo-play-button path {
+  fill: var(--color-link);
+  filter: drop-shadow( 0 0 5px #000 );
+}
+
 .desc {
   line-height: 1.7;
   font-weight: 100;
