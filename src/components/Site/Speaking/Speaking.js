@@ -15,7 +15,7 @@ export default class Speaking extends Component {
           <h1 className={[m.alpha, s.heading].join(' ')}>Speaking</h1>
           <div className={s.thinRow}>
             <p className={s.subtext}>
-              Got a conference coming up? Got a diverse lineup and a proper code of conduct? Need someone to talk about creative coding, gamification or interaction design? Let’s do it.
+              I don’t speak at conferences anymore because they’re full of boring as fuck straight white dudes. If you’re running an event, pay <a href="http://www.womenandcolor.com/">someone</a> <a href="https://enbytech.github.io/">who</a> <a href="https://modelviewculture.com/pieces/black-women-in-tech-2016">isn’t</a> a boring as fuck straight white dude to speak.
             </p>
             <IconRow />
           </div>
@@ -47,32 +47,6 @@ export default class Speaking extends Component {
                 <h3>WebDev</h3>
                 <p className={s.meta}>‘Gamify Everything’ <span className={s.slash}>/</span> Bristol <span className={s.slash}>/</span> 2013</p>
                 <p className={s.desc}>I spoke about the general principles of gamification and how they can be applied to products and interfaces to make users happy as fuck.</p>
-              </div>
-
-            </div>
-
-            <h2 className={s.subtitle} style={ {backgroundImage: `url(images/heading-shapes.svg)` }}>Speaking Requirements</h2>
-            <div className={[s.eventList, s.requirements].join(' ')}>
-
-              <div className={s.event}>
-                <h3>Diversity</h3>
-                <p className={s.desc}>
-                  This is super important. I feel like an event without a diverse range of speakers (and thusly opinions and experiences) will never be great. I’ll only speak at events that have a diverse lineup and a keynote speaker that isn’t another boring ass white dude.
-                </p>
-              </div>
-
-              <div className={s.event}>
-                <h3>A Code of Conduct</h3>
-                <p className={s.desc}>
-                  Diversity means nothing if people don’t feel safe at an event. I only speak at events that have a thorough, inclusion-focussed CoC and plans to enforce it.
-                </p>
-              </div>
-
-              <div className={s.event}>
-                <h3>Travel & Accommodation</h3>
-                <p className={s.desc}>
-                  Unless an event is local, it’d be super nice to get travel and accommodation paid so I don’t go poor from speaking at lots of dope conferences x
-                </p>
               </div>
 
             </div>
