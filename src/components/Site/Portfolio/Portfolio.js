@@ -30,7 +30,35 @@ export default class Portfolio extends Component {
           <div className={s.portfolioItem}>
             <div className={s.section}>
               <div className={s.copy}>
-                <h3 className={s.subhead}>2016</h3>
+                <h3 className={s.subhead}>2017+</h3>
+                <h2 className={s.portfolioHeading}>Readme</h2>
+                <p className={[s.skills, s.blue].join(' ')}>
+                  UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Vue.js <span className={s.slash}>/</span> Frontend
+                </p>
+                <p className={s.processDescription}>
+                  I teamed up with my good pal/chum/friendo Ben Howdle to design and help build a lovely little feature-light Twitter reader. It's literally just a big list of tweets. I kinda love it.
+                </p>
+                <p className={s.processDescription}>
+                  <a href="http://readmeapp.stream" target="_blank">See it live</a>
+                </p>
+              </div>
+              <div className={s.images}>
+                <div className={s.smallImages}>
+                  <img src="images/portfolio/readme-hex.png" />
+                  <img src="images/portfolio/readme-circle.png" />
+                  <img src="images/portfolio/readme-diamond.png" />
+                </div>
+                <div className={s.bigImage}>
+                  <img src="images/portfolio/readme-main.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={s.portfolioItem}>
+            <div className={s.section}>
+              <div className={s.copy}>
+                <h3 className={s.subhead}>2017+</h3>
                 <h2 className={s.portfolioHeading}>WithJack</h2>
                 <p className={[s.skills, s.blue].join(' ')}>
                   UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Motion design <span className={s.slash}>/</span> Frontend
