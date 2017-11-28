@@ -37,7 +37,7 @@ export default class Homepage extends Component {
                   I teamed up with my good pal/chum/friendo Ben Howdle to design and help build a lovely little feature-light Twitter reader. It's literally just a big list of tweets. I kinda love it.
                 </p>
                 <p className={s.processDescription}>
-                  <a href="http://readmeapp.stream" target="_blank">See it live</a>
+                  <Link to="/making-stuff">See more work</Link>
                 </p>
               </div>
               <div className={s.images}>
