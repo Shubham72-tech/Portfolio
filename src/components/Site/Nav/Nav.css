@@ -64,6 +64,8 @@
   display: inline-block;
   text-align: center;
   padding-top: .5rem;
+  text-decoration: none;
+  border: none;
 }
 
 .hire {
@@ -72,6 +74,7 @@
   color: white;
   text-decoration: none;
   letter-spacing: .13rem;
+  border: none;
 }
 
 .squiggle {

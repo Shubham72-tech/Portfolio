@@ -30,7 +30,7 @@ export default class Process extends Component {
           <h1 className={s.heading}>What I Do</h1>
           <div className={s.thinRow}>
             <p className={s.subtext}>
-              I plan, design, build, test and iterate on products and sites for people with exciting ideas and wonderful stories to tell. While I’m available for any phase of a design or build, I’m at my best working directly with founders, taking awesome ideas from plan through to launch.
+              I plan, design, build, test and iterate on digital products and sites for socially-conscious people with exciting ideas and wonderful stories to tell. I'm currently accepting work for early-stage design projects, working directly with founders to turn ideas into useful, mindful products.
             </p>
             <IconRow />
           </div>
@@ -43,10 +43,10 @@ export default class Process extends Component {
               <div className={s.copy}>
                 <h2 className={[s.processHeading, s.purpleHeading].join(' ')} style={ { backgroundImage: `url(${headerShapes})`} }>The sharpies and&nbsp;post-it&nbsp;stuff</h2>
                 <p className={[s.skills, s.purple].join(' ')}>
-                  Roadmapping <span className={s.slash}>/</span> Exploration <span className={s.slash}>/</span> Planning <span className={s.slash}>/</span> Wireframing
+                  Ethnography &amp; Research <span className={s.slash}>/</span> Storyboarding <span className={s.slash}>/</span> Wireframing &amp; Prototyping
                 </p>
                 <p className={s.processDescription}>
-                  The best ideas need time, discussion, and lots of scribbling. Defining the problems your product is trying to solve is super useful. I have a tonne of experience defining—and solving—problems that lead to improvements in important things like activation, conversion and churn rate.
+                  The best ideas need time, research, discussion, and lots of scribbling. Exploring the problem space our work exists in and conducting diverse, broad research puts us in the best position to make impactful shit. I strongly believe that a project is only as good as its foundations.
                 </p>
               </div>
               <div className={s.icons}>
@@ -60,10 +60,10 @@ export default class Process extends Component {
               <div className={s.copy}>
                 <h2 className={[s.processHeading, s.orangeHeading].join(' ')} style={ { backgroundImage: `url(${headerShapes})`} }>The hipster designery&nbsp;stuff</h2>
                 <p className={[s.skills, s.orange].join(' ')}>
-                  UI Design <span className={s.slash}>/</span> Icon Design <span className={s.slash}>/</span> Typography & Grids <span className={s.slash}>/</span> Styleguides
+                  Design Systems <span className={s.slash}>/</span> Icon Design <span className={s.slash}>/</span> Typography &amp; Grids
                 </p>
                 <p className={s.processDescription}>
-                  My approach to UI design revolves around crafting a ‘visual language’ for an interface. I never design solely in the context of static screens and do a lot of work to create robust, reusable elements. This means creating style guides for every project. This also means frontend devs wanna smooch me.
+                My approach to UI design revolves around ensuring design decisions and principles can carry through to a complete system. I never design solely in the context of static screens and do a lot of work to create robust, reusable elements.
                 </p>
               </div>
               <div className={s.icons}>
@@ -80,7 +80,7 @@ export default class Process extends Component {
                   Interaction Design <span className={s.slash}>/</span> Animations <span className={s.slash}>/</span> Interactive Prototyping
                 </p>
                 <p className={s.processDescription}>
-                  Interaction design is my biggest area of expertise. Designing the ‘in-betweens’ is a vital part of my approach to design. Sculpting the tiny elements surrounding an interface’s interactions to increase engagement and create conversations is my absolute favourite thing to do.
+                  Interaction design is my biggest area of expertise. Designing the ‘in-betweens’ is a vital part of my approach to design. Sculpting the tiny elements surrounding an interface’s interactions to create conversations and reduce cognitive load is My Shit&trade;.
                 </p>
               </div>
               <div className={s.icons}>
@@ -97,7 +97,7 @@ export default class Process extends Component {
                   Frontend <span className={s.slash}>/</span> React &amp; Redux Prototyping <span className={s.slash}>/</span> API Integration
                 </p>
                 <p className={s.processDescription}>
-                  I love bringing ideas to life in the browser. I’m super comfortable working with React and Redux to build interfaces and websites, whether it’s a simple, performant marketing site or a big, fancy interface talking to multiple APIs.
+                  I love bringing ideas to life in the browser. I’m super comfortable working with React, Vue.js and Redux to build interfaces and websites, whether it’s a simple, performant marketing site or a big, fancy interface talking to multiple APIs.
                 </p>
               </div>
               <div className={s.icons}>
@@ -111,10 +111,10 @@ export default class Process extends Component {
               <div className={s.copy}>
                 <h2 className={[s.processHeading, s.pinkHeading].join(' ')} style={ { backgroundImage: `url(${headerShapes})`} }>The making shit better stuff</h2>
                 <p className={[s.skills, s.pink].join(' ')}>
-                  User &amp; A/B Testing <span className={s.slash}>/</span> Rapid Iteration <span className={s.slash}>/</span> Feature Enhancement
+                  Qualitative Testing <span className={s.slash}>/</span> Rapid Iteration <span className={s.slash}>/</span> Feature Enhancement
                 </p>
                 <p className={s.processDescription}>
-                  I’m always happy to stick around after launching a project into the wilderness of the internet. Iterating on an already lovely product is a wonderful feeling. I’ll happily work with qualitative and quantitative data to make sure what we make is as delightful (and profitable) as possible.
+                  No one launches a perfect product first-time. I think it's important to be available after launch to look where a product can be improved over time. While I offer the most value in early-stage work - taking an idea through to a 'V1' - I'm more than happy to stick around post-launch.
                 </p>
               </div>
               <div className={s.icons}>

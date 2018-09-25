@@ -46,14 +46,13 @@ try {
                 <meta charset="utf-8">
                 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
                 <link rel="icon" type="image/png" href="/favicon.png" />
+                <link rel="stylesheet" href="https://use.typekit.net/wan8amd.css">
                 <title>Scott is… your m8</title>
                 ${styleTag}
               </head>
               <body>
                 <div id="react-root">${reactString}</div>
               </body>
-              <script src="https://use.typekit.net/jmr2cqn.js"></script>
-              <script>try{Typekit.load({ async: true });}catch(e){}</script>
             </html>`
           );
 

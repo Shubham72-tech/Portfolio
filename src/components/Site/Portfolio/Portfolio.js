@@ -30,6 +30,34 @@ export default class Portfolio extends Component {
           <div className={s.portfolioItem}>
             <div className={s.section}>
               <div className={s.copy}>
+                <h3 className={s.subhead}>2018</h3>
+                <h2 className={s.portfolioHeading}>Molly</h2>
+                <p className={[s.skills, s.blue].join(' ')}>
+                  Frontend <span className={s.slash}>/</span> React <span className={s.slash}>/</span> Animation
+                </p>
+                <p className={s.processDescription}>
+                  I worked with the Molly team to develop their early-stage web app while they went through the Y-Combinator funding process.
+                </p>
+                <p className={s.processDescription}>
+                  <a href="http://molly.com" target="_blank">See it live</a>
+                </p>
+              </div>
+              <div className={s.images}>
+                <div className={s.smallImages}>
+                  <img src="images/portfolio/molly-hex.png" />
+                  <img src="images/portfolio/molly-circle.png" />
+                  <img src="images/portfolio/molly-diamond.png" />
+                </div>
+                <div className={s.bigImage}>
+                  <img src="images/portfolio/molly-main.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={s.portfolioItem}>
+            <div className={s.section}>
+              <div className={s.copy}>
                 <h3 className={s.subhead}>2017+</h3>
                 <h2 className={s.portfolioHeading}>Readme</h2>
                 <p className={[s.skills, s.blue].join(' ')}>

@@ -15,11 +15,34 @@ export default class Speaking extends Component {
           <h1 className={[m.alpha, s.heading].join(' ')}>Speaking</h1>
           <div className={s.thinRow}>
             <p className={s.subtext}>
-              I don’t speak at conferences anymore because they’re full of boring as fuck straight white dudes. If you’re running an event, pay <a href="http://www.womenandcolor.com/">someone</a> <a href="https://enbytech.github.io/">who</a> <a href="https://modelviewculture.com/pieces/black-women-in-tech-2016">isn’t</a> a boring as fuck straight white dude to speak.
+              I've been lucky enough to chat shit on stage at a bunch of conferences in my career. I'm currently interested in speaking about design's role in mental health at conferences with a diverse speaker lineup and a Code of Conduct.
             </p>
             <IconRow />
           </div>
           <div className={s.thinRow}>
+
+            <h2 className={s.subtitle} style={ {backgroundImage: `url(images/heading-shapes.svg)` }}>Speaking Requirements</h2>
+            <div className={[s.eventList, s.requirements].join(' ')}>
+              <div className={s.event}>
+                <h3>Diversity &amp; Inclusivity</h3>
+                <p className={s.desc}>
+                  An event without a diverse range of speakers (and thusly opinions and experiences) will never be great. I’ll only speak at events that have a diverse lineup and a keynote speaker that isn’t another boring ass white dude.
+                </p>
+              </div>
+              <div className={s.event}>
+                <h3>A Code of Conduct</h3>
+                <p className={s.desc}>
+                  Diversity means nothing if people don’t feel safe at an event. I only speak at events that have a thorough, inclusion-focussed Code of Conduct that places the safety of underrepresented groups above pandering to the privileged, with plans to actively enforce it.
+                </p>
+              </div>
+              <div className={s.event}>
+                <h3>Travel &amp; Accommodation</h3>
+                <p className={s.desc}>
+                  Unless an event is local, it’d be super nice to get travel and accommodation paid so I don’t go poor from speaking at lots of dope conferences x
+                </p>
+              </div>
+            </div>
+
             <h2 className={s.subtitle} style={ {backgroundImage: `url(images/heading-shapes.svg)` }}>Previous Talks</h2>
 
             <div className={s.eventList}>

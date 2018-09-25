@@ -75,7 +75,7 @@ class Hire extends Component {
               <h1 className={[m.alpha, s.heading].join(' ')}>Thanks!</h1>
               <div className={s.thinRow}>
                 <p className={s.subtext}>
-                  I’ll get back to you as soon as I possibly can! In the meantime, why not <a href="http://twitter.com/scott_riley" className={s.link}>bug me on Twitter</a>?
+                  I’ll get back to you as soon as I possibly can! In the meantime, why not <a href="http://twitter.com/scott_riley" className={s.link}>hmu on Twitter</a>?
                 </p>
               </div>
             </Wrapper>
@@ -87,7 +87,7 @@ class Hire extends Component {
               <h1 className={[m.alpha, s.heading].join(' ')}>Get In Touch</h1>
               <div className={s.thinRow}>
                 <p className={s.subtext}>
-                  Want to hire me? Or have me speak at your conference? Or just ask me a question? Fill in the love letter below and I’ll get back to you. Smaller enquiry? Why not <a href="http://twitter.com/scott_riley" className={s.link}>bug me on Twitter</a>?
+                  Want to hire me? Or have me speak at your conference? Or just ask me a question? Fill in the love letter below and I’ll get back to you. Smaller enquiry? Why not <a href="http://twitter.com/scott_riley" className={s.link}>hmu on Twitter</a>?
                 </p>
                 <IconRow />
               </div>
@@ -109,7 +109,7 @@ class Hire extends Component {
                   </p>
                 : isSpeaking ?
                   <p>
-                    My conference is called <input className={s.inlineInput} name="projectName" placeholder="SuperDopeConf" {...projectName} /> and it’s going to be super dope.
+                    My conference is called <input className={s.inlineInput} name="projectName" placeholder="SuperDopeConf" {...projectName} /> and it’s going to be super dope. I have a Code of Conduct that I plan to enforce to heck and an awesome, diverse speaker lineup!
                   </p>
                 : null
               }

@@ -22,7 +22,13 @@ export default class About extends Component {
             </div>
             <div className={s.copyCol}>
               <p className={s.subtext}>
-                Isn’t it lovely? I’m a designer and developer, specialising in interface design, React development and inventing new swear words. I like to do fun experiments that marry things like music and audio processing, 3D environments, gaming, and virtual reality with web technology. I also speak about gamification, interaction design and creative coding.
+                Isn't it lovely? I'm a designer, developer and advocate for mental health discourse in tech. 
+                I'm specifically interested in design's role and impact on mental health (spoiler, right now, we fucking suck at it) and improving design processes through mindful principles, 
+                inclusive research and Actually Doing Our Fucking Job. 
+              </p>
+              <p className={s.subtext}>
+                I believe that technology&mdash;and by proxy, design&mdash;should democratise and that late-stage tech-capitalism is an absolute shitshow. Thusly, I only take on design projects with socially conscious founders who 
+                don't place profit above all else.
               </p>
             </div>
           </div>

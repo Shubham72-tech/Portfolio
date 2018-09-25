@@ -53,19 +53,11 @@ class Blog extends Component {
           <h1 className={[m.alpha, s.heading].join(' ')}>Blog</h1>
           <div className={s.thinRow}>
             <p className={s.subtext}>
-              A patchwork collection of thoughts, ramblings and maybe even haikus of varying levels of coherence, relevance and self–indulgence. Who knows, you might actually find something useful on a design blog (you won't).
+              Hi, yeah, there's nothing here right now. My old writing was bad. My new writing might be better.
             </p>
             <IconRow />
           </div>
-          { posts && posts.length > 0 ?
-              <div className={s.posts}>
-                <div className={s.thinRow}>
-                  {this.renderPosts()}
-                </div>
-              </div>
-            :
-              <Loading />
-          }
+          <Loading />
         </Wrapper>
       </div>
     );
