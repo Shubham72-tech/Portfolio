@@ -19,12 +19,6 @@
   }
 }
 
-@media(min-height: 900px) {
-  .heading {
-    font-size: var(--font-size-alpha);
-  }
-}
-
 .row,
 .thinRow {
   lost-utility: clearfix;
