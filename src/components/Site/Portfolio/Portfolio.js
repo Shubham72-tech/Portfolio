@@ -19,13 +19,41 @@ export default class Portfolio extends Component {
           <h1 className={[m.alpha, s.heading].join(' ')}>My Work</h1>
           <div className={s.thinRow}>
             <p className={s.subtext}>
-              I’ve been lucky enough to work on loads of pretty cool projects, including huge enterprise web apps, Government sites, mobile apps and lovely interfaces for hipster coffee drinkers.
+              I like to design and build good shit with socially-conscious founders who understand how their products manifest in the real world. Here's some stuff I've done:
             </p>
             <IconRow />
           </div>
         </Wrapper>
 
         <div className={s.sections}>
+
+          <div className={s.portfolioItem}>
+            <div className={s.section}>
+                <div className={s.copy}>
+                  <h3 className={s.subhead}>2018</h3>
+                  <h2 className={s.portfolioHeading}>With Jack</h2>
+                  <p className={[s.skills, s.blue].join(' ')}>
+                    UX <span className={s.slash}>/</span> UI &amp; Animation <span className={s.slash}>/</span> React
+                  </p>
+                  <p className={s.processDescription}>
+                    I teamed up with Ashley Baxter and Vic Bell to redesignh and build an entire new vibe for the already-awesome With Jack. I designed and built the marketing site and a lovely chatty quote system, as well as building a simple API and barebones CRM for customer management.
+                  </p>
+                  <p className={s.processDescription}>
+                    <a href="https://withjack.co.uk">See it live</a>
+                  </p>
+                </div>
+                <div className={s.images}>
+                  <div className={s.smallImages}>
+                    <img src="images/portfolio/wj-hex.png" />
+                    <img src="images/portfolio/wj-circle.png" />
+                    <img src="images/portfolio/wj-diamond.png" />
+                  </div>
+                  <div className={s.bigImage}>
+                    <img src="images/portfolio/wj-main.png" />
+                  </div>
+                </div>
+              </div>
+          </div>
 
           <div className={s.portfolioItem}>
             <div className={s.section}>
@@ -78,34 +106,6 @@ export default class Portfolio extends Component {
                 </div>
                 <div className={s.bigImage}>
                   <img src="images/portfolio/readme-main.png" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className={s.portfolioItem}>
-            <div className={s.section}>
-              <div className={s.copy}>
-                <h3 className={s.subhead}>2017+</h3>
-                <h2 className={s.portfolioHeading}>WithJack</h2>
-                <p className={[s.skills, s.blue].join(' ')}>
-                  UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Motion design <span className={s.slash}>/</span> Frontend
-                </p>
-                <p className={s.processDescription}>
-                  I made a lovely chatty interface for the WithJack quote process, making potential customers feel all warm and fuzzy while they signed up for insurance.
-                </p>
-                <p className={s.processDescription}>
-                  <a href="http://withjack.co.uk/quote" target="_blank">See it live</a>
-                </p>
-              </div>
-              <div className={s.images}>
-                <div className={s.smallImages}>
-                  <img src="images/portfolio/wj-hex.png" />
-                  <img src="images/portfolio/wj-circle.png" />
-                  <img src="images/portfolio/wj-diamond.png" />
-                </div>
-                <div className={s.bigImage}>
-                  <img src="images/portfolio/wj-main.png" />
                 </div>
               </div>
             </div>

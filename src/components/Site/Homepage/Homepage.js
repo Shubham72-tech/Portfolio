@@ -29,12 +29,12 @@ export default class Homepage extends Component {
           <div className={s.section}>
               <div className={s.copy}>
                 <h3 className={s.subhead}>Featured Work</h3>
-                <h2 className={s.portfolioHeading}>Readme</h2>
+                <h2 className={s.portfolioHeading}>With Jack</h2>
                 <p className={[s.skills, s.blue].join(' ')}>
                   UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Vue.js <span className={s.slash}>/</span> Frontend
                 </p>
                 <p className={s.processDescription}>
-                  I teamed up with my good pal/chum/friendo Ben Howdle to design and help build a lovely little feature-light Twitter reader. It's literally just a big list of tweets. I kinda love it.
+                  I teamed up with Ashley Baxter and Vic Bell to redesignh and build an entire new vibe for the already-awesome With Jack. I designed and built the marketing site and a lovely chatty quote system, as well as building a simple API and barebones CRM for customer management.
                 </p>
                 <p className={s.processDescription}>
                   <Link to="/making-stuff">See more work</Link>
@@ -42,12 +42,12 @@ export default class Homepage extends Component {
               </div>
               <div className={s.images}>
                 <div className={s.smallImages}>
-                  <img src="images/portfolio/readme-hex.png" />
-                  <img src="images/portfolio/readme-circle.png" />
-                  <img src="images/portfolio/readme-diamond.png" />
+                  <img src="images/portfolio/wj-hex.png" />
+                  <img src="images/portfolio/wj-circle.png" />
+                  <img src="images/portfolio/wj-diamond.png" />
                 </div>
                 <div className={s.bigImage}>
-                  <img src="images/portfolio/readme-main.png" />
+                  <img src="images/portfolio/wj-main.png" />
                 </div>
               </div>
             </div>
