@@ -31,7 +31,7 @@ export default class Homepage extends Component {
                 <h3 className={s.subhead}>Featured Work</h3>
                 <h2 className={s.portfolioHeading}>With Jack</h2>
                 <p className={[s.skills, s.blue].join(' ')}>
-                  UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> Vue.js <span className={s.slash}>/</span> Frontend
+                  UX <span className={s.slash}>/</span> UI <span className={s.slash}>/</span> React <span className={s.slash}>/</span> Frontend
                 </p>
                 <p className={s.processDescription}>
                   I teamed up with Ashley Baxter and Vic Bell to redesign and build an entire new vibe for the already-awesome With Jack. I designed and built the marketing site and a lovely chatty quote system, as well as building a simple API and barebones CRM for customer management.
